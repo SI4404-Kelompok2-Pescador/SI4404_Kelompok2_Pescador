@@ -9,8 +9,10 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         {{-- load css file --}}
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-        <title>Register</title>
+        <title>Register</title> 
+    </head>
 
+    <body>
         <style>
             body
             {
@@ -19,9 +21,6 @@
                 background-size : cover;
             }
         </style>
-    </head>
-
-    <body>
         <!-- REGISTRASI INPUT -->
         <div class="d-flex container mt-5 justify-content-end">
             <div class="d-flex container mt-5 justify-content-center bg-white bg-opacity-50" style="width: 40rem;">
