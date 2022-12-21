@@ -10,13 +10,16 @@
         {{-- load css file --}}
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
         <title>Login</title>
-        <style>
-            body
-            {
-                background-image : url(assets/img/loginn.png);
-                background-repeat : no-repeat;
-                background-size : cover;
-            }
-        </style>
         
     </head>
+
+    <body>
+
+    @yield('content')
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

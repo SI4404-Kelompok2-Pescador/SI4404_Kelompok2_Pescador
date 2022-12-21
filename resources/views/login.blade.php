@@ -25,7 +25,7 @@
         <div class="d-flex container mt-5 justify-content-end">
             <div class="d-flex container mt-5 justify-content-start">
             
-                <div class="d-flex container mt-5 justify-content-center bg-white bg-opacity-50 " style="width: 35rem;">
+                <div class="border-we d-flex container mt-5 justify-content-center bg-white bg-opacity-50 " style="width: 35rem;">
                     
                     <hr class="ms-2 me-2 mt-0 mb-0">
                     <div class="card-body">

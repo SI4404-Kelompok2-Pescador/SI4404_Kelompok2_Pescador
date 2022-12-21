@@ -23,6 +23,7 @@
         </style>
         <!-- REGISTRASI INPUT -->
         <div class="d-flex container mt-5 justify-content-end">
+            
             <div class="d-flex container mt-5 justify-content-center bg-white bg-opacity-50" style="width: 40rem;">
                 
                 <hr class="ms-2 me-2 mt-0 mb-0">
