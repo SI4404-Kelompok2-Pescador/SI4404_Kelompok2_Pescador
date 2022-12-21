@@ -25,7 +25,7 @@
                             placeholder="Your E-mail">
                         <label class="mb-2" for="password">Kata Sandi</label><br>
                         <input class="form-control mb-2" type="password" name="password" id="password" required
-                            placeholder="password">
+                            placeholder="Password">
                         <div class="mt-3">
                             <input class="form-check-input" type="checkbox" name="remember" id="remember">
                             <label for="remember">Remember</label>
