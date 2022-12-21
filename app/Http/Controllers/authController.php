@@ -19,6 +19,7 @@ class authController extends Controller
             'password' => $request->input('password'),
         ]);
         $response = $response->json();
+        // dd($response);
         if ($response['status'] == 200) {
             $request->session()->put('token', $response['token']);
         }
