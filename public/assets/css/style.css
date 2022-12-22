@@ -1,6 +1,7 @@
+
 /* isi border regis & login */
 .mb-2{
-    height: 35px;
+    height: 30px;
     font-size: medium;
     background-color: transparent;
     border-right-color: #ffffff;
@@ -13,4 +14,206 @@
 
 .border-we{
     height: 450px;
+}
+
+
+
+
+/* ================================================================================================================== */
+
+.navbar{
+    position: fixed;
+    font-size: 14px; 
+    display: flex;
+    width: 100%;
+    background-repeat : no-repeat;
+    background-size : cover;
+    
+    
+   
+}
+/* Navbar text setting*/
+.navbar-nav{
+    padding: 4px 230px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+}
+/* nevbar logo setting */
+.navbar-brand{
+    text-align: center;
+    width: 450px;
+}
+
+/* login button navbar */
+.navlogbut{
+    width: 200px;
+
+}
+
+.jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+/* carousel class */
+.carousel{
+    filter: grayscale(100%); 
+}
+
+.container{
+    border-radius: 10px;
+    color: rgb(57, 83, 106);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+
+/* laman kedua */
+.lamankedua{
+    filter: grayscale(100%); 
+    top: 50%;
+    width: 100%;
+    transform: translateY();
+}
+
+.ml1{
+    text-align: center;
+    top: 31%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: #cecece;
+
+}
+
+.icon1{
+    text-align: center;
+    top: 15%;
+    width: 1500px;
+    position: absolute;
+}
+
+
+
+
+.laman2 {
+    filter: grayscale(100%); 
+    
+
+}
+
+/* laman ketiga */
+.lamanketiga{
+    filter: grayscale(1%); 
+    top: 50%;
+    width: 100%;
+    transform: translateY();
+}
+.textlt1{
+    text-align: center;
+    top: 15%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 1px 932px 1px 80px;
+    color: #653e3e;
+    margin-left: 1px;
+
+}
+.textlt2{
+    text-align: center;
+    top: 15%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 1px 20px 1px 832px;
+    color: #653e3e;
+    margin-left: 1px;
+
+}
+
+/* laman keempat */
+.lamankeempat{
+    filter: grayscale(1%); 
+    top: 50%;
+    width: 100%;
+    transform: translateY();
+
+}
+.textle1{
+    text-align: center;
+    top: 31%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: #cecece;
+}
+
+/* laman kelima */
+.lamanke5{
+    filter: grayscale(1%); 
+    top: 50%;
+    width: 100%;
+    transform: translateY();
+}
+.textll1{
+    text-align: center;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    padding: 12px 910px 9px 10px;
+    position: absolute;
+    color: #cecece;
+}
+
+
+/* laman keenam */
+.lamankeenam{
+    filter: grayscale(1%); 
+    top: 50%;
+    width: 100%;
+    transform: translateY();
+}
+
+.logopescador{
+    text-align: center;
+    top: 15%;
+    width: 1500px;
+    position: absolute;
+}
+
+.textll1{
+    text-align: center;
+    top: 35%;
+    height: 10%;
+    width: 100%;
+    padding: 12px 910px 9px 10px;
+    position: absolute;
+    color: #ffffff;
+}
+
+.textll2{
+    text-align: center;
+    top: 35%;
+    height: 10%;
+    width: 100%;
+    padding: 12px 10px 9px 10px;
+    position: absolute;
+    color: #ffffff;
+}
+
+.textll3{
+    text-align: center;
+    top: 35%;
+    height: 10%;
+    width: 100%;
+    padding: 12px 1px 9px 1100px;
+    position: absolute;
+    color: #ffffff;
+}
+h4{
+    color: #653e3e;
 }

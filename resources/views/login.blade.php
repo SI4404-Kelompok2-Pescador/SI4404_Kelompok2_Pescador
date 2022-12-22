@@ -32,7 +32,7 @@
                         </div>
                         <div class="d-flex justify-content-center text-start mt-4 ">
                             <button class="btn btn-secondary" type="submit" name="submit" onclick=""
-                                style="width: 200px">Login</button>
+                                style="width: 500px">Login</button>
                         </div>
                     </form>
 
