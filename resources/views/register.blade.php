@@ -19,20 +19,22 @@
                         @csrf
                         <h2 class="boltext text-center m-3">Register</h2>
                         <label class="mb-2" for="name">Name</label><br>
-                        <input class="form-control mb-2" type="text" name="name" id="name" required placeholder="Your Name">
+                            <input class="form-control mb-2" type="text" name="name" id="name" required placeholder="Your Name">
                         <label class="mb-2" for="email">E-mail</label><br>
-                        <input class="form-control mb-2" type="text" name="email" id="email" required placeholder="Your E-mail">
+                            <input class="form-control mb-2" type="text" name="email" id="email" required placeholder="Your E-mail">
                         <label class="mb-2" for="phone">Phone Number</label><br>
-                        <input class="form-control mb-2" type="text" name="phone" id="phone" required placeholder="Phone Number">
+                            <input class="form-control mb-2" type="text" name="phone" id="phone" required placeholder="Phone Number">
                         <label class="mb-2" for="address">Address</label><br>
-                        <input class="form-control mb-2" type="text" name="address" id="address" required placeholder="Your Address">
+                            <input class="form-control mb-2" type="text" name="address" id="address" required placeholder="Your Address">
                         <label class="mb-2" for="password">Password</label><br>
-                        <input class="form-control mb-2" type="password" name="password" id="password" required placeholder="Password">
+                            <input class="form-control mb-2" type="password" name="password" id="password" required placeholder="Password">
+                        <label for="inputGroupFile01">Photo Profile</label>
+                            <input type="file" class="form-control" id="inputGroupFile01" name="gambar" style="height: 40px;">
                         <div class="text-start pt-2 mb-2">
-                            <a href="{{'login'}}"><button type="submit" name="submit" onclick="" style="width: 150px" class="btn btn-dark">Register</button></a>
+                            <a href="{{'login'}}"><button type="submit" name="submit" onclick="" style="width: 600px" class="btn btn-dark">Register</button></a>
                         </div>
                     </form>
-                    <div class="text-center d-flex justify-content-end">
+                    <div class="text-center d-flex justify-content-center mt-4">
                         <p class="ME-1">Have already an account? <a href="{{'login'}}"
                             class="fw-bold text-body"><u>Login here</u></a></p>
                     </div>

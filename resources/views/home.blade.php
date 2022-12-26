@@ -5,7 +5,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity- sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <!-- Container wrapper -->
         <div class="container-fluid">
 
@@ -34,6 +34,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="#lamankeenam">Service</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile">PROFILE</a>
+            </li>
+
             </ul>
             <!-- Left links -->
         </div>
@@ -117,7 +121,7 @@
             <img src="assets/img/bg12.png" alt="" style="width:100%;";>
         </div>
         <div class="textlt1"style="">
-            <h1>Beri Makan Ikan untuk Dunia</h1>
+            <h1>Peduli terhadap potensi perairan</h1>
             <p1>Pandemi menyebabkan dampak berkepanjangan pada ketahanan
                 <br>pangan global. Sekitar 660 juta orang masih akan menghadapi isu
                 <br>kelaparan di tahun 2030. Akuakultur, sebagai sektor bisnis dengan
@@ -175,7 +179,7 @@
 
      
       <!-- Halaman ke 5 -->
-    <section class="lamanke5" id="lamanke5">
+      <section class="lamanke5" id="lamanke5">
         <div>
             <img src="assets/img/bg3.png" alt="" style="width: 100%;";>
         </div>
@@ -187,8 +191,67 @@
             </div>
 
         </div>
+
+        <div class="emo">  
+            <div class="tex">
+                <div class="judtextu1">
+                    <div class="judtext1">
+                        <p3>Tumbuh bersama</p3>
+                    </div>           
+                    <h5 style="font-weight: bold;">30.000+ Pembudidaya</h5>
+                </div>
+                
+            </div>
+
+            <div class="tex mt-5">
+                <div class="judtextu1">
+                    <div class="judtext1">
+                        <p3>Mendigitalisasi</p3>
+                    </div>   
+                    <h5 style="font-weight: bold;">70.000 tambak ikan & 
+                        <br>udang</h5>
+                </div>
+                
+            </div>
+
+            <div class="tex">
+                <div class="judtextu1 mt-5">
+                    <div class="judtext1">
+                        <p3>Menghubungkan</p3>
+                    </div>
+                    <h5 style="font-weight: bold;">7.000+ Pembudidaya ke 
+                        <br>program pembiayaan 
+                        <br>yang lebih baik</h5>
+                </div>         
+            </div>
+        </div>  
+        <div class="emo2">  
+            <div class="tex">
+                <div class="judtextu1">
+                    <div class="judtext1">
+                        <p3>Memberi makan dunia dengan</p3>
+                    </div>           
+                    <h5 style="font-weight: bold;">13.000+ ton produk 
+                        <br>perikanan</h5>
+                </div>
+                
+            </div>
+
+            <div class="tex mt-5">
+                <div class="judtextu1">
+                    <div class="judtext1">
+                        <p3>Mengurangi</p3>
+                    </div>   
+                    <h5 style="font-weight: bold;">30% sumber pencemaran
+                        <br>air yang dihasilkan dari 
+                        <br>proses budidaya</h5>
+                </div>
+                
+            </div>
+        </div>  
     </section>
      <!-- Halaman ke 5 -->
+
 
 
         
@@ -282,19 +345,21 @@
             <div class="textll1">
                 <div>
                     <h4>Perusahaan</h4>
-                    <p>Tentang eFishery</p>
+                    <p>Tentang Pescador</p>
                     <p>Blog</p>
                     <p>Hubungi kami</p>
                     <p>Syarat & Ketentuan</p>
                     <p>FAQ</p>
                 </div>
+
+                
                 
             </div>
 
             <div class="textll2">
                 <div>
                     <h4>Produk</h4>
-                    <p>Tentang eFishery</p>
+                    <p>Tentang Pescador</p>
                     <p>Blog</p>
                     <p>Hubungi kami</p>
                     <p>Syarat & Ketentuan</p>
@@ -306,7 +371,7 @@
             <div class="textll3">
                 <div>
                     <h4>Download Our Apps</h4>
-                    <p>Tentang eFishery</p>
+                    <p>Tentang Pescador</p>
                     <p>Blog</p>
                     <p>Hubungi kami</p>
                     <p>Syarat & Ketentuan</p>
