@@ -35,7 +35,7 @@
                 <a class="nav-link" href="#lamankeenam">Service</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="profile">PROFILE</a>
+                <a class="nav-link" href="profileview">PROFILE</a>
             </li>
 
             </ul>
