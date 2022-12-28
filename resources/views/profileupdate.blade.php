@@ -19,7 +19,7 @@
 
         <!-- profile up -->
         <div class="profileup d-flex container ">
-            <div class="d-flex container mt-5 justify-content-center bg-transparent bg-opacity-50" style="width: 45rem; height: 33rem; ">
+            <div class="d-flex container mt-5 justify-content-center bg-dark bg-opacity-50" style="width: 45rem; height: 33rem; ">
                 
                 <hr class="ms-2 me-2 mt-0 mb-0">
                 <div class="dds card-body">
