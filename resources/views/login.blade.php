@@ -10,7 +10,7 @@
 						<h3>SIGN IN</h3>
 						<input type="text" name="email" id="email" placeholder="E-MAIL">
 						<input type="password" name="password" id="password" placeholder="PASSWORD">    
-						<button class="submit">LOGIN</button>
+                        <a href="{{'/'}}"><button class="submit" type="submit" name="submit">LOGIN</button></a>
                         <div class="text-center d-flex justify-content-center mt-3">
                             <p class="cracc me-1"><a href="{{ 'register' }}" class="fw-bold text-body"><u>Create
                                     Account</u></a>
