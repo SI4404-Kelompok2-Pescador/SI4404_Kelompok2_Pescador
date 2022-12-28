@@ -18,7 +18,7 @@
     </div>
         <!-- profile view -->
         <div class="profileview d-flex container ">
-            <div class="d-flex container mt-5 justify-content-center bg-transparent bg-opacity-50" style="width: 25rem; height: 30rem; ">
+            <div class="d-flex container mt-5 justify-content-center bg-dark bg-opacity-50" style="width: 30rem; height: 32rem; ">
                 
                 <hr class="ms-2 me-2 mt-0 mb-0">
                 <div class="dds card-body">
