@@ -15,31 +15,45 @@
               </ul>
             </div>
 
-    </div>
-        <!-- profile view -->
-        <div class="profileview d-flex container ">
-            <div class="d-flex container mt-5 justify-content-center bg-dark bg-opacity-50" style="width: 30rem; height: 32rem; ">
-                
-                <hr class="ms-2 me-2 mt-0 mb-0">
-                <div class="dds card-body">
-                    <form action="" method="post">
-          
-                        <img class="ppstyle"src="https://assets.promediateknologi.com/crop/0x0:0x0/x/photo/2022/08/10/1106880019.jpg " alt="" style="width: 14rem; height: 13rem; ">
-                        <label class="profin mb-1" for="nama"></label><br>
-                        <label class="profin mb-1" for="nama">Name</label><br>
-                        <input class="profin form-control mb-2 text-center" type="text" name="nama" id="nama" required placeholder="EDI FERDY SIMALUNGUN">
-                        <label class="profin mb-1" for="email">E-mail</label><br>
-                        <input class="profin form-control mb-2 text-center" type="text" name="email" id="email" required placeholder="SamboGTG@gmail.com">
-                        <label class="profin mb-1" for="nohp">Phone Number</label><br>
-                        <input class="profin form-control mb-2 text-center" type="text" name="nohp" id="nohp" required placeholder="081282770666">
-                        <label class="profin mb-1" for="nohp">Address</label><br>
-                        <input class="profin form-control mb-2 text-center" type="text" name="nohp" id="nohp" required placeholder="Jl.Duren Tiga">
-                    </form>
-
+</section>
+<section class="vh-100" >
+  <div class="profview container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100 w-25">
+      <div class="col col-md-9 col-lg-7 col-xl-5 ">
+      <div>
+        <h3>Profile</h3>
+      </div>
+        <div class="card" style="border-radius: 1px; width: 65rem; height: 18rem; background-color: #fffff">
+          <div class="card-body p-4 " style=" ">
+            <div class="d-flex text-black" >
+              <div class="flex-shrink-0">
+                <img src="https://imgx.motorplus-online.com/crop/0x0:0x0/700x0/filters:watermark(file/2017/gridoto/img/watermark_motorplus.png,5,5,60)/photo/2022/07/16/sim-gresikjpg-20220716100711.jpg"
+                  alt="Generic placeholder image" class="img-fluid"
+                  style="width: 200px; height: 240px; border-radius: 10px;">
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <h5 class="mb-1">Sambo Ganteng</h5>
+                <p class="mb-2 pb-1" style="color: #2b2a2a;">uhuymen@gmail.com</p>
+                <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                  style="background-color: #efefef;">
+                  <div>
+                    <p class="small text-muted mb-1">Address</p>
+                    <p class="mb-0">Jl.Duren Tiga No.77</p>
+                    <p class="small text-muted mb-1">Phone Number</p>
+                    <p class="mb-0">081299387367</p>
+                  </div>
+                  </div>
+                  <div class="d-flex pt-1">
+                  <button type="button" class="btn btn-secondary flex-grow-1"><a href="{{ 'profileupdate' }}" class="fw-bold text-body">UPDATE</a></button>
                 </div>
+                </div>
+              </div>
             </div>
-        </div>  
-        <!-- end profile view -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 @endsection
        
