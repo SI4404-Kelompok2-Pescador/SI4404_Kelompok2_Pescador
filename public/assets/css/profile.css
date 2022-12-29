@@ -11,7 +11,7 @@ html, body {
 
   }
   body {
-    background: #F1FBFF;
+    background: #eee;
     
     position: relative;
     background-repeat : no-repeat;
@@ -141,6 +141,7 @@ html, body {
     transform: translateY();
   }
     .profview{
+      top: 50%;
       
     }
     
@@ -154,7 +155,7 @@ html, body {
 /*  */
 .profileup{
     text-align: center;
-    top: 5%;
+    top: 10%;
     height: 100%;
     width: 100%;
     left: 165px;

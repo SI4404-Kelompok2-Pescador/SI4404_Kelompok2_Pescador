@@ -38,3 +38,11 @@ Route::get('/profileview', function () {
 Route::get('/profileupdate', function () {
     return view('profileupdate');
 });
+
+Route::get('/topup', function () {
+    return view('topup');
+});
+
+Route::get('/historytr', function () {
+    return view('historytr');
+});

@@ -8,7 +8,9 @@
             <div id="sidebar-nav">   
               <ul>
                 <li><a href="profileview"><i class="pesanan"></i> Profile</a></li> 
-                <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Settings</a></li>      
+                <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Settings</a></li>  
+                <li><a href="topup"><i class=""></i> Top Up</a></li> 
+                <li><a href="historytr"><i class=""></i> History Transaction</a></li>    
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
                 <li><a href="/" rel="stylesheet">Log Out</a></li>
@@ -18,6 +20,19 @@
     </div>
 
         <!-- profile up -->
+        <section class="row" style="background-color: #eee; height: 100%;">
+          <div class="container py-5 ">
+            <div class=" row">
+              <div class="profview col">
+                <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+                  <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="profileview">User</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Settings Profile</li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
         <div class="profileup d-flex container ">
             <div class="d-flex container mt-5 justify-content-center bg-white bg-opacity-100" style="border-radius: 1px; width: 45rem; height: 37rem; ">
                 
