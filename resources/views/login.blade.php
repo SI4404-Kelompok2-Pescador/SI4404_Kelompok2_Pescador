@@ -6,11 +6,12 @@
 			<div class="left">
 				<div class="top_link"><a href="/"><img src="https://drive.google.com/u/0/uc?id=16U__U5dJdaTfNGobB_OpwAJ73vM50rPV&export=download" alt="">Return home</a></div>
 				<div class="contact">
-					<form action="">
+					<form action="{{route('login.post')}}" method="post">
+						@csrf
 						<h3>SIGN IN</h3>
 						<input type="text" name="email" id="email" placeholder="E-MAIL">
 						<input type="password" name="password" id="password" placeholder="PASSWORD">    
-                        <a href="{{'/'}}"><button class="submit" type="submit" name="submit">LOGIN</button></a>
+                        <button class="submit" type="submit" name="submit">LOGIN</button>
                         <div class="text-center d-flex justify-content-center mt-3">
                             <p class="cracc me-1"><a href="{{ 'register' }}" class="fw-bold text-body"><u>Create
                                     Account</u></a>
