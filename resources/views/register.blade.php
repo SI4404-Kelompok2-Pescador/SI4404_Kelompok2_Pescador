@@ -12,7 +12,8 @@
 						<input type="text" name="email" id="email" placeholder="E-MAIL">
                         <input type="text" name="phone" id="phone" placeholder="PHONE NUMBER">
                         <input type="text" name="address" id="address" placeholder="ADDRESS">
-						<input type="password" name="password" id="password" placeholder="PASSWORD">    					
+						<input type="password" name="password" id="password" placeholder="PASSWORD">  
+                        <input type="file" class="form-control" id="inputGroupFile01" name="gambar" style="height: 40px;">  					
                         <a href="{{'login'}}"><button class="submit1" type="submit" name="submit">REGISTER</button></a>
 					</form>
 				</div>

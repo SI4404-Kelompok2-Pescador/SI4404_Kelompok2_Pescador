@@ -268,7 +268,7 @@
                                     <div class="card bg-white text-dark">
                                         <div class="card-body">
                                             <h5 class="card-title">Pembudidaya Ikan</h5>
-                                            <img src="https://www.nusabali.com/article_images/129742/rendah-konsumsi-makan-ikan-di-tabanan-2022-11-18-102556_0.jpg" alt="" style="width: 400px; height: 200px;">
+                                            <img src="https://www.nusabali.com/article_images/129742/rendah-konsumsi-makan-ikan-di-tabanan-2022-11-18-102556_0.jpg" alt="" style="width: 370px; height: 200px;">
                                             <p class="card-text">Layanan lengkap, dari hulu ke hilir untuk Pembudidaya ikan. 
                                                 Rasakan kemudahan transaksi pakan, akses ke program finansial, serta berita 
                                                 dan info terbaru terkait dunia Akuakultur, semua tersedia untuk Pembudidaya!</p>
@@ -280,7 +280,7 @@
                                     <div class="card bg-white text-dark">
                                         <div class="card-body">
                                             <h5 class="card-title">Pembudidaya Udang</h5>
-                                            <img src="https://p1.pxfuel.com/preview/943/1012/845/shrimp-fruits-of-the-sea-fish-food-wallpaper.jpg" alt="" style="width: 400px; height: 200px;">
+                                            <img src="https://p1.pxfuel.com/preview/943/1012/845/shrimp-fruits-of-the-sea-fish-food-wallpaper.jpg" alt="" style="width: 370px; height: 200px;">
                                             <p class="card-text"> Ekosistem budidaya udang terpadu, dibangun untuk meningkatkan 
                                                 produktivitas, mencegah wabah, dan merekomendasikan 
                                                 sistem pengelolaan tambak berbasis data, untuk mendukung tambak para Pembudidaya 
@@ -293,7 +293,7 @@
                                     <div class="card bg-white text-dark">
                                         <div class="card-body">
                                             <h5 class="card-title">Pembudidaya Kepiting</h5>
-                                            <img src="https://cdn-2.tstatic.net/pekanbaru/foto/bank/images/kepiting-rajungan.jpg" alt="" style="width: 400px; height: 200px;">
+                                            <img src="https://cdn-2.tstatic.net/pekanbaru/foto/bank/images/kepiting-rajungan.jpg" alt="" style="width: 370px; height: 200px;">
                                             <p class="card-text">Memastikan ikan dan udang kualitas terbaik dapat dinikmati di seluruh 
                                                 penjuru negeri dengan mendistribusikan hasil panen Pembudidaya dalam bentuk hidup, segar, dan beku.</p>
                                             <a href="#" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
@@ -304,7 +304,7 @@
                                     <div class="card bg-white text-dark">
                                         <div class="card-body">
                                             <h5 class="card-title">Pembeli & Konsumen</h5>
-                                            <img src="https://images.unsplash.com/photo-1598063414123-d8fd7fb018b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzYXIlMjB0cmFkaXNpb25hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" style="width: 400px; height: 200px;">
+                                            <img src="https://images.unsplash.com/photo-1598063414123-d8fd7fb018b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzYXIlMjB0cmFkaXNpb25hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" style="width: 370px; height: 200px;">
                                             <p class="card-text">Memastikan ikan dan udang kualitas terbaik dapat dinikmati di seluruh 
                                                 penjuru negeri dengan mendistribusikan hasil panen Pembudidaya dalam bentuk hidup, segar, dan beku.</p>
                                             <a href="#" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
