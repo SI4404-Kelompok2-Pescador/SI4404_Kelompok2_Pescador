@@ -46,3 +46,7 @@ Route::get('/topup', function () {
 Route::get('/historytr', function () {
     return view('historytr');
 });
+
+Route::get('/product', function () {
+    return view('product');
+});
