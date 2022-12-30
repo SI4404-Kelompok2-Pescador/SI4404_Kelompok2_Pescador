@@ -64,8 +64,8 @@
 
 .container{
     border-radius: 10px;
-    color: rgb(57, 83, 106);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* color: rgb(57, 83, 106); */
+    font-family: Poppins, serif;
     
     
 }
