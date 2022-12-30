@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#lamankedua">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#lamanke5">Product</a>
+                <a class="nav-link" href="product">Product</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#lamankeenam">Service</a>
@@ -51,7 +51,7 @@
 
   
     <!-- Coursel -->
-    <section class="coursel" id="coursel">
+    <section class="crl coursel" id="coursel">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -276,7 +276,7 @@
                                             <p class="card-text">Layanan lengkap, dari hulu ke hilir untuk Pembudidaya ikan. 
                                                 Rasakan kemudahan transaksi pakan, akses ke program finansial, serta berita 
                                                 dan info terbaru terkait dunia Akuakultur, semua tersedia untuk Pembudidaya!</p>
-                                            <a href="#" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
+                                            <a href="product" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
                                         </div>
                                     </div>
                                 </div>
@@ -289,7 +289,7 @@
                                                 produktivitas, mencegah wabah, dan merekomendasikan 
                                                 sistem pengelolaan tambak berbasis data, untuk mendukung tambak para Pembudidaya 
                                                 udang.</p>
-                                            <a href="#" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
+                                            <a href="product" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@
                                             <img src="https://cdn-2.tstatic.net/pekanbaru/foto/bank/images/kepiting-rajungan.jpg" alt="" style="width: 370px; height: 200px;">
                                             <p class="card-text">Memastikan ikan dan udang kualitas terbaik dapat dinikmati di seluruh 
                                                 penjuru negeri dengan mendistribusikan hasil panen Pembudidaya dalam bentuk hidup, segar, dan beku.</p>
-                                            <a href="#" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
+                                            <a href="product" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
                                         </div>
                                     </div>
                                 </div>
@@ -311,7 +311,7 @@
                                             <img src="https://images.unsplash.com/photo-1598063414123-d8fd7fb018b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzYXIlMjB0cmFkaXNpb25hbHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="" style="width: 370px; height: 200px;">
                                             <p class="card-text">Memastikan ikan dan udang kualitas terbaik dapat dinikmati di seluruh 
                                                 penjuru negeri dengan mendistribusikan hasil panen Pembudidaya dalam bentuk hidup, segar, dan beku.</p>
-                                            <a href="#" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
+                                            <a href="product" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
                                         </div>
                                     </div>
                                 </div>

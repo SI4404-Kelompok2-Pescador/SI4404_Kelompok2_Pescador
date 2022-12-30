@@ -58,7 +58,7 @@
   }
 
 /* carousel class */
-.carousel{
+.crl{
     filter: grayscale(100%); 
 }
 
@@ -278,3 +278,7 @@ h4{
 
     border-right-color: #ffffff;
 }
+
+
+
+/*  */
