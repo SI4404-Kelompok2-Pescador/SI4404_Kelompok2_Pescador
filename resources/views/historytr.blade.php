@@ -13,7 +13,7 @@
                 <li class="active"><a href="historytr"><i class="fa fa-dashboard"></i> History Transaction</a></li>
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
-                <li><a href="/" rel="stylesheet">Log Out</a></li>
+                <li><a href="login" rel="stylesheet">Log Out</a></li>
               </ul>
             </div>
 
