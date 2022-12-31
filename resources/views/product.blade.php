@@ -86,27 +86,27 @@
                             <img class="position-absolute w-100 h-100" src="https://asset.kompas.com/crops/GClM9bHvul__LAgbVvf7I_SaiZs=/0x0:1000x667/750x500/data/photo/2020/04/18/5e9aa09392d9b.jpg" style="object-fit: cover;">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Ikan Kerapu</h1>
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Ikan Laut</h1>
                                     <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Dari hasil tangkapan lansung para nelayan.</p>
                                     <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Beli Sekarang</a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item position-relative" style="height: 430px;">
-                            <img class="position-absolute w-100 h-100" src="https://utusantv.com/wp-content/uploads/2020/12/ikan.jpg" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="https://www.suarasurabaya.net/wp-content/uploads/2020/11/84014015_1770349543102061_8602699226213777408_n-840x493.jpg" style="object-fit: cover;">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Ikan Kerapu</h1>
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Lobster</h1>
                                     <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Dari hasil tangkapan lansung para nelayan.</p>
                                     <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Beli Sekarang</a>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item position-relative" style="height: 430px;">
-                            <img class="position-absolute w-100 h-100" src="https://akcdn.detik.net.id/visual/2020/08/26/5-tips-memilih-ikan-yang-masih-segar_169.jpeg?w=650" style="object-fit: cover;">
+                            <img class="position-absolute w-100 h-100" src="https://blueventures.org/wp-content/uploads/2021/01/GHC170805014205_maxWidth_1920_maxHeight_1080_ppi_72_quality_60.jpg" style="object-fit: cover;">
                             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div class="p-3" style="max-width: 700px;">
-                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Ikan Kerapu</h1>
+                                    <h1 class="display-4 text-white mb-3 animate__animated animate__fadeInDown">Gurita</h1>
                                     <p class="mx-md-5 px-5 animate__animated animate__bounceIn">Dari hasil tangkapan lansung para nelayan.</p>
                                     <a class="btn btn-outline-light py-2 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Beli Sekarang</a>
                                 </div>
@@ -290,7 +290,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://blueventures.org/wp-content/uploads/2021/01/GHC170805014205_maxWidth_1920_maxHeight_1080_ppi_72_quality_60.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -299,9 +299,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">GURITA</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.55.000</h5><h6 class="text-muted ml-2"><del>Rp.73.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -309,7 +309,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(86)</small>
                         </div>
                     </div>
                 </div>
@@ -317,7 +317,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://awsimages.detik.net.id/community/media/visual/2021/02/01/kacau-beli-cumi-cumi-di-pasar-saat-direbus-malah-jadi-bubur.jpeg?w=626" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -328,7 +328,7 @@
                     <div class="text-center py-4">
                         <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.39.000</h5><h6 class="text-muted ml-2"><del>Rp.45.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -344,7 +344,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://cdn.murianews.com/wp-content/uploads/2022/11/30001149/ikan-tongkol.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -353,9 +353,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">IKAN TONGKOL</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.20.000</h5><h6 class="text-muted ml-2"><del>Rp.25.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -363,7 +363,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star-half-alt text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(55)</small>
                         </div>
                     </div>
                 </div>
@@ -371,7 +371,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKB0h8hwOzcnOUrBbYb9T31ZrPtc040wm-A&usqp=CAU" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -382,7 +382,7 @@
                     <div class="text-center py-4">
                         <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.32.000</h5><h6 class="text-muted ml-2"><del>Rp.35.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -390,7 +390,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(78)</small>
                         </div>
                     </div>
                 </div>
@@ -398,7 +398,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQooMqlHtF_VGVZpzMXb35R_9a90u39nCWc5Q&usqp=CAU" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -407,9 +407,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">IKAN TENGGIRI</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.32.000</h5><h6 class="text-muted ml-2"><del>Rp.34.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -417,7 +417,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(67)</small>
                         </div>
                     </div>
                 </div>
@@ -425,7 +425,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://www.beritadaerah.co.id/wp-content/uploads/2020/04/Rumput-Laut-Foto-Wikipedia.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -434,7 +434,7 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">RUMPUT LAUT</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
                         </div>
@@ -444,7 +444,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star-half-alt text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(54)</small>
                         </div>
                     </div>
                 </div>
@@ -452,7 +452,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://media.k-link.us/k-link/image/2020/09/manfaat-teripang-laut.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -461,9 +461,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">TERIPANG</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.18.000</h5><h6 class="text-muted ml-2"><del>Rp.23.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -471,7 +471,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star-half-alt text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(37)</small>
                         </div>
                     </div>
                 </div>
@@ -479,7 +479,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://doktersehat.com/wp-content/uploads/2020/03/manfaat-ikan-kakap-doktersehat.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -488,9 +488,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">IKAN KAKAP MERAH</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.34.000</h5><h6 class="text-muted ml-2"><del>Rp.37.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -498,7 +498,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(33)</small>
                         </div>
                     </div>
                 </div>
@@ -538,12 +538,39 @@
 
     <!-- Products Start -->
     <div class="container-fluid pt-5 pb-3">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Recent Products</span></h2>
+        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="bg-secondary pr-3">Featured Products</span></h2>
         <div class="row px-xl-5">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://blueventures.org/wp-content/uploads/2021/01/GHC170805014205_maxWidth_1920_maxHeight_1080_ppi_72_quality_60.jpg" alt="">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">GURITA</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>Rp.55.000</h5><h6 class="text-muted ml-2"><del>Rp.73.000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small>(76)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://awsimages.detik.net.id/community/media/visual/2021/02/01/kacau-beli-cumi-cumi-di-pasar-saat-direbus-malah-jadi-bubur.jpeg?w=626" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -554,15 +581,15 @@
                     <div class="text-center py-4">
                         <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.39.000</h5><h6 class="text-muted ml-2"><del>Rp.45.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small class="fa fa-star-half-alt text-primary mr-1"></small>
+                            <small>(87)</small>
                         </div>
                     </div>
                 </div>
@@ -570,7 +597,34 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://cdn.murianews.com/wp-content/uploads/2022/11/30001149/ikan-tongkol.jpg" alt="">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">IKAN TONGKOL</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>Rp.20.000</h5><h6 class="text-muted ml-2"><del>Rp.25.000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star-half-alt text-primary mr-1"></small>
+                            <small class="far fa-star text-primary mr-1"></small>
+                            <small>(12)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKB0h8hwOzcnOUrBbYb9T31ZrPtc040wm-A&usqp=CAU" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -580,6 +634,60 @@
                     </div>
                     <div class="text-center py-4">
                         <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>Rp.32.000</h5><h6 class="text-muted ml-2"><del>Rp.35.000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="far fa-star text-primary mr-1"></small>
+                            <small class="far fa-star text-primary mr-1"></small>
+                            <small>(45)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQooMqlHtF_VGVZpzMXb35R_9a90u39nCWc5Q&usqp=CAU" alt="">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">IKAN TENGGIRI</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <h5>Rp.32.000</h5><h6 class="text-muted ml-2"><del>Rp.34.000</del></h6>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center mb-1">
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small class="fa fa-star text-primary mr-1"></small>
+                            <small>(88)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="https://www.beritadaerah.co.id/wp-content/uploads/2020/04/Rumput-Laut-Foto-Wikipedia.jpg" alt="">
+                        <div class="product-action">
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="">RUMPUT LAUT</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
                             <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
                         </div>
@@ -589,7 +697,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star-half-alt text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(36)</small>
                         </div>
                     </div>
                 </div>
@@ -597,7 +705,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://media.k-link.us/k-link/image/2020/09/manfaat-teripang-laut.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -606,9 +714,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">TERIPANG</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.18.000</h5><h6 class="text-muted ml-2"><del>Rp.23.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -616,7 +724,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="fa fa-star-half-alt text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(52)</small>
                         </div>
                     </div>
                 </div>
@@ -624,7 +732,7 @@
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
+                        <img class="img-fluid w-100" src="https://doktersehat.com/wp-content/uploads/2020/03/manfaat-ikan-kakap-doktersehat.jpg" alt="">
                         <div class="product-action">
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
@@ -633,9 +741,9 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
+                        <a class="h6 text-decoration-none text-truncate" href="">IKAN KAKAP MERAH</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
+                            <h5>Rp.34.000</h5><h6 class="text-muted ml-2"><del>Rp.37.000</del></h6>
                         </div>
                         <div class="d-flex align-items-center justify-content-center mb-1">
                             <small class="fa fa-star text-primary mr-1"></small>
@@ -643,115 +751,7 @@
                             <small class="fa fa-star text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
                             <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center mb-1">
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center mb-1">
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star-half-alt text-primary mr-1"></small>
-                            <small>(99)</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center mb-1">
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star-half-alt text-primary mr-1"></small>
-                            <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">CUMI-CUMI</a>
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>Rp.13.000</h5><h6 class="text-muted ml-2"><del>Rp.13.000</del></h6>
-                        </div>
-                        <div class="d-flex align-items-center justify-content-center mb-1">
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="fa fa-star text-primary mr-1"></small>
-                            <small class="far fa-star text-primary mr-1"></small>
-                            <small class="far fa-star text-primary mr-1"></small>
-                            <small>(99)</small>
+                            <small>(43)</small>
                         </div>
                     </div>
                 </div>
