@@ -116,39 +116,43 @@
 
 
     <!-- Halaman ke 3 Pescador -->
-    <section class="lamanketiga" id="lamanketiga">
-        <div class="laman2">
-            <img src="assets/img/bg12.png" alt="" style="width:100%;";>
+    <section class="lamanketiga py-5" id="lamanketiga">
+        <h1 class="d-flex justify-content-center">Solusi Kami untuk Dunia Akultur</h1>
+        <div class="container d-flex gap-5 justify-content-center py-5 mt-5">
+            <div class="card rounded-4 border border-0 shadow" style="width: 18rem;">
+                <div style="position: absolute;">
+                    <img src="https://efishery.com/wp-content/uploads/2021/10/ikan-nila.png" style="width: 190px; margin-top: -90px;" alt="">
+                </div>
+                <div class="card-body mt-5">
+                    <h5 class="card-title">Solusi untuk</h5>
+                    <h6 class="card-subtitle mb-2 fw-bold">Pembudidaya Ikan</h6>
+                    <p class="fw-nornal">Layanan lengkap, dari hulu ke hilir untuk Pembudidaya ikan. Rasakan kemudahan transaksi pakan, akses ke program finansial, serta berita dan info terbaru terkait dunia Akuakultur, semua tersedia untuk Pembudidaya!</p>
+                    <a href="#" class="btn btn-success rounded-pill mb-3" style="margin-top: 95px">Cari tahu lebih lanjut</a>
+                </div>
+            </div>
+            <div class="card rounded-4 border border-0 shadow" style="width: 18rem;">
+                <div style="position: absolute;">
+                    <img src="https://efishery.com/wp-content/uploads/2021/10/udang.png" style="width: 190px; margin-top: -90px;" alt="">
+                </div>
+                <div class="card-body mt-5">
+                    <h5 class="card-title">Solusi untuk</h5>
+                    <h6 class="card-subtitle mb-2 fw-bold">Pembudidaya Udang</h6>
+                    <p class="fw-nornal">Ekosistem budidaya udang terpadu, dibangun untuk meningkatkan produktivitas, menjaga kualitas air tambak, mencegah wabah, dan merekomendasikan sistem pengelolaan tambak berbasis data, untuk mendukung tambak para Pembudidaya udang.</p>
+                    <a href="#" class="btn btn-success rounded-pill mt-5 mb-3">Cari tahu lebih lanjut</a>
+                </div>
+            </div>
+            <div class="card rounded-4 border border-0 shadow" style="width: 18rem;">
+                <div style="position: absolute;">
+                    <img src="https://efishery.com/wp-content/uploads/2021/10/orang-1.png" style="width: 130px; margin-top: -90px;" alt="">
+                </div>
+                <div class="card-body mt-5">
+                    <h5 class="card-title">Solusi untuk</h5>
+                    <h6 class="card-subtitle mb-2 fw-bold">Pembeli & Konsumen</h6>
+                    <p class="fw-nornal">Memastikan ikan dan udang kualitas terbaik dapat dinikmati di seluruh penjuru negeri dengan mendistribusikan hasil panen Pembudidaya dalam bentuk hidup, segar, dan beku.</p>
+                    <a href="#" class="btn btn-success rounded-pill mb-3" style="margin-top: 120px">Cari tahu lebih lanjut</a>
+                </div>
+            </div>
         </div>
-        <div class="textlt1"style="">
-            <h1>Peduli terhadap potensi perairan</h1>
-            <p1>Pandemi menyebabkan dampak berkepanjangan pada ketahanan
-                <br>pangan global. Sekitar 660 juta orang masih akan menghadapi isu
-                <br>kelaparan di tahun 2030. Akuakultur, sebagai sektor bisnis dengan
-                <br>pertumbuhan yang pesat, memiliki potensi untuk berkontribusi
-                <br>secara signifikan terhadap ketahanan pangan. eFishery percaya
-                <br>bahwa “The Future is Aquaculture”. Menggunakan kemajuan
-                <br>teknologi, eFishery membangun value chain yang sistematis untuk
-                <br>bisnis budidaya ikan dan udang, menghasilkan ekosistem yang
-                <br>terintegrasi dan berkelanjutan untuk memperkuat ketahanan pangan 
-                <br>global di masa mendatang.
-            </p1>
-        </div>
-        <div class="textlt2"style="">
-            <h1>Beri Makan Ikan untuk Dunia</h1>
-            <p1>Pandemi menyebabkan dampak berkepanjangan pada ketahanan
-                <br>pangan global. Sekitar 660 juta orang masih akan menghadapi isu
-                <br>kelaparan di tahun 2030. Akuakultur, sebagai sektor bisnis dengan
-                <br>pertumbuhan yang pesat, memiliki potensi untuk berkontribusi
-                <br>secara signifikan terhadap ketahanan pangan. eFishery percaya
-                <br>bahwa “The Future is Aquaculture”. Menggunakan kemajuan
-                <br>teknologi, eFishery membangun value chain yang sistematis untuk
-                <br>bisnis budidaya ikan dan udang, menghasilkan ekosistem yang
-                <br>terintegrasi dan berkelanjutan untuk memperkuat ketahanan pangan 
-                <br>global di masa mendatang.
-            </p1>
-        </div>
-
     </section>
     <!-- Halaman ke 3 -->
 
