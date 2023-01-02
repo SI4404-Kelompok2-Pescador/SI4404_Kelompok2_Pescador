@@ -53,7 +53,7 @@
                 <a class="nav-link" href="/">Service</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="profileview">PROFILE</a>
+                <a class="nav-link" href="profileview">Profile</a>
             </li>
 
             </ul>
@@ -145,8 +145,8 @@
                                 </button>
                             </div>
                         </div>
-                        <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i></button>
-                        <button class="btn btn-primary px-3 ml-3"><i class="fa fa-buy mr-1"></i> Beli Sekarang</button>
+                        <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i></button>          
+                        <a class="" href="payment"><button class="btn btn-primary px-3 ml-3" ><i class="fa fa-buy mr-1" ></i> Beli Sekarang</button></a>
                     </div>
                     <div class="d-flex pt-2">
                         <strong class="text-dark mr-2">Share on:</strong>
@@ -272,7 +272,7 @@
     <!-- Footer Start -->
     <section class="lamankeenam" id="lamankeenam">
         <div>
-            <img src="assets/img/bgend.png" alt="" style="width: 100%;";>
+            <img src="assets/img/bgend2.png" alt="" style="width: 100%;";>
         </div>
         <div class="logopescador">
             <img src="assets/img/logowh.png" alt=""style="width: 20%;">

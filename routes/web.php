@@ -54,3 +54,11 @@ Route::get('/product', function () {
 Route::get('/detail', function () {
     return view('detail');
 });
+
+Route::get('/payment', function () {
+    return view('payment');
+});
+
+Route::get('/toko', function () {
+    return view('toko');
+});

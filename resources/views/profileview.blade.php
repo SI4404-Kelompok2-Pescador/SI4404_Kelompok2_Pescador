@@ -8,9 +8,9 @@
             <div id="sidebar-nav">   
               <ul>
                 <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Profile</a></li>
-                <li><a href="profileupdate"><i class="pesanan"></i> Settings</a></li>   
-                <li><a href="topup"><i class=""></i> Top Up</a></li>   
+                <li><a href="profileupdate"><i class="pesanan"></i> Settings</a></li>    
                 <li><a href="historytr"><i class=""></i> History Transaction</a></li>   
+                <li><a href="toko"><i class=""></i> TOKO</a></li> 
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
                 <li><a href="login" rel="stylesheet">Log Out</a></li>
@@ -54,7 +54,7 @@
                 <p class="mb-2"><span class="text-primary font-italic me-1">SALDO AKUN</span>
                 </p>
               <div class="col-sm-9">
-                <p class="text-muted mb-3" >Rp.100,000</p>
+                <p class="text-muted mb-3" >Rp.758.223</p>
               </div>
               <div class="d-flex justify-content-center mb-1">
               <a href="topup"><button type="button" class="btn btn-outline-primary ms-1 mt-2"style="width: 10rem;">Top Up</button></a>

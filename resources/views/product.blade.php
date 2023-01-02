@@ -44,9 +44,6 @@
                 <a class="nav-link" href="/">Dashboard</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">About</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="product">Product</a>
             </li>
             <li class="nav-item">
@@ -56,7 +53,7 @@
                 <a class="nav-link" href="detail">Detail</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="profileview">PROFILE</a>
+                <a class="nav-link" href="profileview">Profile</a>
             </li>
 
             </ul>
@@ -787,7 +784,7 @@
     <!-- Footer Start -->
     <section class="lamankeenam" id="lamankeenam">
         <div>
-            <img src="assets/img/bgend.png" alt="" style="width: 100%;";>
+            <img src="assets/img/bgend2.png" alt="" style="width: 100%;";>
         </div>
         <div class="logopescador">
             <img src="assets/img/logowh.png" alt=""style="width: 20%;">
