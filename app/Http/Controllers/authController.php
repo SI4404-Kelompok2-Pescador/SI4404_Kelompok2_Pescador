@@ -1,5 +1,6 @@
 <?php
 
+
 namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Http;
@@ -37,6 +38,7 @@ class authController extends Controller
         if ($response['status'] == 'success') {
             $request->session()->put('token', $response['token']);
         }
+
 
         return redirect('/')->with('success', $response['message']);
     }

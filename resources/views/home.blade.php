@@ -35,7 +35,7 @@
                 <a class="nav-link" href="#lamankeenam">Service</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="profileview">PROFILE</a>
+                <a class="nav-link" href="profileview">Profile</a>
             </li>
 
             </ul>
@@ -127,7 +127,7 @@
                     <h5 class="card-title">Solusi untuk</h5>
                     <h6 class="card-subtitle mb-2 fw-bold">Pembudidaya Ikan</h6>
                     <p class="fw-nornal">Layanan lengkap, dari hulu ke hilir untuk Pembudidaya ikan. Rasakan kemudahan transaksi pakan, akses ke program finansial, serta berita dan info terbaru terkait dunia Akuakultur, semua tersedia untuk Pembudidaya!</p>
-                    <a href="#" class="btn btn-success rounded-pill mb-3" style="margin-top: 95px">Cari tahu lebih lanjut</a>
+                    <a href="product" class="btn btn-success rounded-pill mb-3" style="margin-top: 95px">Cari tahu lebih lanjut</a>
                 </div>
             </div>
             <div class="card rounded-4 border border-0 shadow" style="width: 18rem;">
@@ -138,7 +138,7 @@
                     <h5 class="card-title">Solusi untuk</h5>
                     <h6 class="card-subtitle mb-2 fw-bold">Pembudidaya Udang</h6>
                     <p class="fw-nornal">Ekosistem budidaya udang terpadu, dibangun untuk meningkatkan produktivitas, menjaga kualitas air tambak, mencegah wabah, dan merekomendasikan sistem pengelolaan tambak berbasis data, untuk mendukung tambak para Pembudidaya udang.</p>
-                    <a href="#" class="btn btn-success rounded-pill mt-5 mb-3">Cari tahu lebih lanjut</a>
+                    <a href="product" class="btn btn-success rounded-pill mt-5 mb-3">Cari tahu lebih lanjut</a>
                 </div>
             </div>
             <div class="card rounded-4 border border-0 shadow" style="width: 18rem;">
@@ -149,7 +149,7 @@
                     <h5 class="card-title">Solusi untuk</h5>
                     <h6 class="card-subtitle mb-2 fw-bold">Pembeli & Konsumen</h6>
                     <p class="fw-nornal">Memastikan ikan dan udang kualitas terbaik dapat dinikmati di seluruh penjuru negeri dengan mendistribusikan hasil panen Pembudidaya dalam bentuk hidup, segar, dan beku.</p>
-                    <a href="#" class="btn btn-success rounded-pill mb-3" style="margin-top: 120px">Cari tahu lebih lanjut</a>
+                    <a href="product" class="btn btn-success rounded-pill mb-3" style="margin-top: 120px">Cari tahu lebih lanjut</a>
                 </div>
             </div>
         </div>
@@ -340,7 +340,7 @@
     <!-- Halaman ke 6 -->
     <section class="lamankeenam" id="lamankeenam">
         <div>
-            <img src="assets/img/bgend.png" alt="" style="width: 100%;";>
+            <img src="assets/img/bgend2.png" alt="" style="width: 100%;";>
         </div>
         <div class="logopescador">
             <img src="assets/img/logowh.png" alt=""style="width: 20%;">
