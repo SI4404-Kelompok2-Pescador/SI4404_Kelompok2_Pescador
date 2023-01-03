@@ -42,7 +42,7 @@
             <!-- Left links -->
         </div>
         <form class="navlogbut d-flex">
-            <button class="btn btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
+            <button class="btn btn-outline-light bg-secondary rounded-pill mb-3" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
         </form>
         
         
@@ -127,6 +127,7 @@
                     <h5 class="card-title">Solusi untuk</h5>
                     <h6 class="card-subtitle mb-2 fw-bold">Pembudidaya Ikan</h6>
                     <p class="fw-nornal">Layanan lengkap, dari hulu ke hilir untuk Pembudidaya ikan. Rasakan kemudahan transaksi pakan, akses ke program finansial, serta berita dan info terbaru terkait dunia Akuakultur, semua tersedia untuk Pembudidaya!</p>
+                    <br>
                     <a href="#" class="btn btn-success rounded-pill mb-3" style="margin-top: 95px">Cari tahu lebih lanjut</a>
                 </div>
             </div>
@@ -138,6 +139,7 @@
                     <h5 class="card-title">Solusi untuk</h5>
                     <h6 class="card-subtitle mb-2 fw-bold">Pembudidaya Udang</h6>
                     <p class="fw-nornal">Ekosistem budidaya udang terpadu, dibangun untuk meningkatkan produktivitas, menjaga kualitas air tambak, mencegah wabah, dan merekomendasikan sistem pengelolaan tambak berbasis data, untuk mendukung tambak para Pembudidaya udang.</p>
+                    <br>
                     <a href="#" class="btn btn-success rounded-pill mt-5 mb-3">Cari tahu lebih lanjut</a>
                 </div>
             </div>
@@ -190,8 +192,8 @@
         <div class="textll1">
             <h1>Dampak Kami Sejauh Ini</h1>
             <div class="mt-4" >
-            <button class="btn bg-success btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">Gabung bersama kami</a></button>
-            <button class="btn btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">Pelajari lebih lanjut</a></button>
+            <button class="btn btn-success rounded-pill mb-3" type="submit" ><a class="nav-link" href="login">Gabung bersama kami</a></button>
+            <button class="btn btn-success rounded-pill mb-3 bg-secondary" type="submit" ><a class="nav-link" href="login">Pelajari lebih lanjut</a></button>
             </div>
 
         </div>
