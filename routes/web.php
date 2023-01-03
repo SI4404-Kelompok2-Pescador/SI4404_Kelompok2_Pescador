@@ -50,3 +50,15 @@ Route::get('/historytr', function () {
 Route::get('/product', function () {
     return view('product');
 });
+
+Route::get('/detail', function () {
+    return view('detail');
+});
+
+Route::get('/payment', function () {
+    return view('payment');
+});
+
+Route::get('/toko', function () {
+    return view('toko');
+});
