@@ -11,7 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     {{-- load css file --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <title>Auth</title>
+    <title>Pescador</title>
     <link
 		href='http://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,400italic,600,300italic,300|Oswald:400,300,700'
 		rel='stylesheet' type='text/css'>

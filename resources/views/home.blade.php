@@ -42,7 +42,7 @@
             <!-- Left links -->
         </div>
         <form class="navlogbut d-flex">
-            <button class="btn btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
+            <button class="btn btn-outline-light bg-secondary rounded-pill mb-3" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
         </form>
         
         
@@ -195,8 +195,8 @@
         <div class="textll1">
             <h1>Dampak Kami Sejauh Ini</h1>
             <div class="mt-4" >
-            <button class="btn bg-success btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">Gabung bersama kami</a></button>
-            <button class="btn btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">Pelajari lebih lanjut</a></button>
+            <button class="btn btn-success rounded-pill mb-3" type="submit" ><a class="nav-link" href="login">Gabung bersama kami</a></button>
+            <button class="btn btn-success rounded-pill mb-3 bg-secondary" type="submit" ><a class="nav-link" href="login">Pelajari lebih lanjut</a></button>
             </div>
 
         </div>
