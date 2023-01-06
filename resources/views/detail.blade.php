@@ -71,20 +71,6 @@
     <!-- Coursel -->
 
 
-    <!-- Breadcrumb Start -->
-    <!-- <div class="container-fluid">
-        <div class="row px-xl-5">
-            <div class="col-12">
-                <nav class="breadcrumb bg-light mb-30">
-                    <a class="breadcrumb-item text-dark" href="#">Home</a>
-                    <a class="breadcrumb-item text-dark" href="#">Shop</a>
-                    <span class="breadcrumb-item active">Shop Detail</span>
-                </nav>
-            </div>
-        </div>
-    </div> -->
-    <!-- Breadcrumb End -->
-
 
     <!-- Shop Detail Start -->
     <div class="container-fluid pb-5" style="margin-top: 15px;">
@@ -93,16 +79,16 @@
                 <div id="product-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner bg-light">
                         <div class="carousel-item active">
-                            <img class="w-100 h-100" src="https://awsimages.detik.net.id/community/media/visual/2021/02/01/kacau-beli-cumi-cumi-di-pasar-saat-direbus-malah-jadi-bubur.jpeg?w=626" alt="Image">
+                            <img class="w-100 h-100" src="https://doktersehat.com/wp-content/uploads/2020/03/manfaat-ikan-kakap-doktersehat.jpg" alt="Image">
                         </div>
                         <div class="carousel-item">
-                            <img class="w-100 h-100" src="https://awsimages.detik.net.id/community/media/visual/2021/02/01/kacau-beli-cumi-cumi-di-pasar-saat-direbus-malah-jadi-bubur.jpeg?w=626" alt="Image">
+                            <img class="w-100 h-100" src="https://doktersehat.com/wp-content/uploads/2020/03/manfaat-ikan-kakap-doktersehat.jpg" alt="Image">
                         </div>
                         <div class="carousel-item">
-                            <img class="w-100 h-100" src="https://awsimages.detik.net.id/community/media/visual/2021/02/01/kacau-beli-cumi-cumi-di-pasar-saat-direbus-malah-jadi-bubur.jpeg?w=626" alt="Image">
+                            <img class="w-100 h-100" src="https://doktersehat.com/wp-content/uploads/2020/03/manfaat-ikan-kakap-doktersehat.jpg" alt="Image">
                         </div>
                         <div class="carousel-item">
-                            <img class="w-100 h-100" src="https://awsimages.detik.net.id/community/media/visual/2021/02/01/kacau-beli-cumi-cumi-di-pasar-saat-direbus-malah-jadi-bubur.jpeg?w=626" alt="Image">
+                            <img class="w-100 h-100" src="https://doktersehat.com/wp-content/uploads/2020/03/manfaat-ikan-kakap-doktersehat.jpg" alt="Image">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
@@ -116,7 +102,7 @@
 
             <div class="col-lg-7 h-auto mb-30">
                 <div class="h-100 bg-light p-30">
-                    <h3>Cumi-Cumi</h3>
+                    <h3>IKAN KAKAP MERAH</h3>
                     <div class="d-flex mb-3">
                         <div class="text-primary mr-2">
                             <small class="fas fa-star"></small>
@@ -127,8 +113,8 @@
                         </div>
                         <small class="pt-1">(23 Reviews)</small>
                     </div>
-                    <h3 class="font-weight-semi-bold mb-4">Rp.35.000</h3>
-                    <p class="mb-4">Cumi-cumi hasil tangkapan nelayan.</p>
+                    <h3 class="font-weight-semi-bold mb-4">Rp.32.000</h3>
+                    <p class="mb-4">IKAN KAKAP MERAH hasil tangkapan nelayan.</p>
                    
                     
                     <div class="d-flex align-items-center mb-4 pt-2">
@@ -144,8 +130,8 @@
                                     <i class="fa fa-plus"></i>
                                 </button>
                             </div>
-                        </div>
-                        <button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i></button>          
+                        </div>                
+                        <a class="" href="cart"><button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i></button></a>         
                         <a class="" href="payment"><button class="btn btn-primary px-3 ml-3" ><i class="fa fa-buy mr-1" ></i> Beli Sekarang</button></a>
                     </div>
                     <div class="d-flex pt-2">
@@ -221,7 +207,7 @@
                                                 <i class="fas fa-star-half-alt"></i>
                                                 <i class="far fa-star"></i>
                                             </div>
-                                            <p>Wah cuminya masih fresh banget cocok buat dimasak asam manis. Keren deh amanah penjualnya sesuai deskripsi</p>
+                                            <p>Wah IKANNYA masih fresh banget cocok buat dimasak asam manis. Keren deh amanah penjualnya sesuai deskripsi</p>
                                         </div>
                                     </div>
                                 </div>
@@ -275,7 +261,13 @@
             <img src="assets/img/bgend2.png" alt="" style="width: 100%;";>
         </div>
         <div class="logopescador">
-            <img src="assets/img/logowh.png" alt=""style="width: 20%;">
+            <img src="assets/img/logowh.png" alt=""style="
+            width: 15%; 
+            display: block;
+            margin-left: 50%;
+            margin-right: 50%;
+            ">
+
         </div>
         <div>  
             <div class="textll1">
@@ -333,8 +325,7 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 @endsection

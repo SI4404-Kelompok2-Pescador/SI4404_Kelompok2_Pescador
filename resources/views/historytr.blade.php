@@ -25,7 +25,24 @@
             </div>
 
 </section>
-<section class="row" style="background-color: #eee; height: 100%;">
+
+<section class="navhr " style="background-color: #eee; height: 1%;">
+  <div class="container py-5">
+    <div class=" row">
+      <div class="profview col">
+        <nav aria-label="breadcrumb" class="rounded-3 p-3 mb-4">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="profileview">User</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Toko</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+</section>
+
+<section class="historytp row" style="background-color: #eee; height: 100%;">
 
     <section class="topupcard"> 
         <div class="wrapper rounded">

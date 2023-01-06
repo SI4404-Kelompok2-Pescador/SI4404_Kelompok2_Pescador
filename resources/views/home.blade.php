@@ -58,7 +58,7 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner" style="width: 100%; height: 650px;">
+            <div class="carousel-inner" style="width: 100%; height: 840px;">
               <div class="carousel-item active">
                 <img src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Creative-Wallpaper-Fishing-Rod-New-York-fisherman.jpg" class="d-block w-100" alt="..."
                 >
@@ -94,7 +94,12 @@
             <img src="assets/img/bg211.png" alt="" style="width: 100%; ";>
         </div>
         <div class="icon1" >
-            <img src="assets/img/logo.png" alt=""style="width: 10%;">
+            <img src="assets/img/logowh.png" alt=""style="
+            width: 15%; 
+            display: block;
+            margin-left: 50%;
+            margin-right: 50%;
+            ">
         </div>
         <div class="ml1" style="">
             <h1>Beri Makan Ikan untuk Dunia</h1>
@@ -340,10 +345,16 @@
     <!-- Halaman ke 6 -->
     <section class="lamankeenam" id="lamankeenam">
         <div>
-            <img src="assets/img/bgend2.png" alt="" style="width: 100%;";>
+            <img src="assets/img/bgend.png" alt="" style="width: 100%;";>
         </div>
         <div class="logopescador">
-            <img src="assets/img/logowh.png" alt=""style="width: 20%;">
+            <img src="assets/img/logowh.png" alt=""style="
+            width: 15%; 
+            display: block;
+            margin-left: 50%;
+            margin-right: 50%;
+            ">
+
         </div>
         <div>  
             <div class="textll1">

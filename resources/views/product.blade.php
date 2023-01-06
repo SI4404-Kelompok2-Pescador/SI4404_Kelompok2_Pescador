@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 @section('content')
+
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
@@ -41,16 +42,16 @@
             <!-- Left links -->
             <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">Dashboard</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="product">Product</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">Service</a>
+                <a class="nav-link" href="detail">Detail</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="detail">Detail</a>
+                <a class="nav-link" href="detail">Contact</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="profileview">Profile</a>
@@ -60,7 +61,14 @@
             <!-- Left links -->
         </div>
         <form class="navlogbut d-flex">
-            <button class="btn btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
+            <a href="cart" class="btn px-0 ml-2">
+                <i class="fas fa-shopping-cart text-warning"></i>
+                <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">5</span>
+            </a>
+            <a href="cart" class="btn px-0 ml-2">
+                <i class="fas fa-heart text-warning"></i>
+                <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">10</span>
+            </a>
         </form>
         
         
@@ -155,7 +163,7 @@
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
-                    <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                    <h1 class="fas fa-check text-primary m-0 mr-3"></h1>
                     <h5 class="font-weight-semi-bold m-0">Economic</h5>
                 </div>
             </div>
@@ -292,7 +300,7 @@
                     <div class="product-img position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="https://blueventures.org/wp-content/uploads/2021/01/GHC170805014205_maxWidth_1920_maxHeight_1080_ppi_72_quality_60.jpg" alt="">
                         <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href="detail"><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href="cart"><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                         </div>
@@ -318,7 +326,7 @@
                     <div class="product-img position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="https://awsimages.detik.net.id/community/media/visual/2021/02/01/kacau-beli-cumi-cumi-di-pasar-saat-direbus-malah-jadi-bubur.jpeg?w=626" alt="">
                         <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href="detail"><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href="cart"><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                         </div>
@@ -344,7 +352,7 @@
                     <div class="product-img position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="https://cdn.murianews.com/wp-content/uploads/2022/11/30001149/ikan-tongkol.jpg" alt="">
                         <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href="detail"><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href="cart"><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                         </div>
@@ -370,7 +378,7 @@
                     <div class="product-img position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKB0h8hwOzcnOUrBbYb9T31ZrPtc040wm-A&usqp=CAU" alt="">
                         <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href="detail"><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href="cart"><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                         </div>
@@ -396,7 +404,7 @@
                     <div class="product-img position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQooMqlHtF_VGVZpzMXb35R_9a90u39nCWc5Q&usqp=CAU" alt="">
                         <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href="detail"><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href="cart"><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                         </div>
@@ -422,7 +430,7 @@
                     <div class="product-img position-relative overflow-hidden">
                         <img class="img-fluid w-100" src="https://www.beritadaerah.co.id/wp-content/uploads/2020/04/Rumput-Laut-Foto-Wikipedia.jpg" alt="">
                         <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href="detail"><i class="fa fa-shopping-cart"></i></a>
+                            <a class="btn btn-outline-dark btn-square" href="cart"><i class="fa fa-shopping-cart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
                             <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
                         </div>
@@ -787,8 +795,15 @@
             <img src="assets/img/bgend2.png" alt="" style="width: 100%;";>
         </div>
         <div class="logopescador">
-            <img src="assets/img/logowh.png" alt=""style="width: 20%;">
+            <img src="assets/img/logowh.png" alt=""style="
+            width: 15%; 
+            display: block;
+            margin-left: 50%;
+            margin-right: 50%;
+            ">
+
         </div>
+        
         <div>  
             <div class="textll1">
                 <div>
@@ -845,8 +860,7 @@
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 @endsection

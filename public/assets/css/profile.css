@@ -67,10 +67,12 @@ html, body {
   .nav-chat i:after {
     display: none;
   }
+
+  /*  */
   #sidebar {
     overflow: hidden;
     width: 240px;
-    height: 721px;
+    height: 903px;
     float: left;
     background: #2A2D33;
   }
@@ -158,7 +160,7 @@ html, body {
     top: 10%;
     height: 100%;
     width: 100%;
-    left: 165px;
+    left: 390px;
     position: fixed;
     transform: translateY();
     

@@ -1,5 +1,6 @@
 @extends('layouts.profile-layout')
 @section('content')
+<link rel="stylesheet" href="{{ asset('assets/css/toko.css') }}">
 <section>
 <div id="sidebar"> 
             <div class="white-label">
@@ -32,8 +33,8 @@
       </div>
     </div>
 
- 
-
 </section>
+
+
 @endsection
        
