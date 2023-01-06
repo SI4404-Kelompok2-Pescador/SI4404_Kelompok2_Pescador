@@ -62,3 +62,7 @@ Route::get('/payment', function () {
 Route::get('/toko', function () {
     return view('toko');
 });
+
+Route::get('/cart', function () {
+    return view('cart');
+});

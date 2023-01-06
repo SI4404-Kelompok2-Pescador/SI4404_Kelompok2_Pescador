@@ -34,7 +34,7 @@
               </div>
             </div>
         <div class="profileup d-flex container ">
-            <div class="d-flex container mt-5 justify-content-center bg-white bg-opacity-100" style="border-radius: 1px; width: 45rem; height: 37rem; ">
+            <div class="d-flex container mt-5 justify-content-center bg-white bg-opacity-100" style="border-radius: 1px; width: 65rem; height: 40rem; ">
                 
                 <hr class="ms-2 me-2 mt-0 mb-0">
                 <div class="dds card-body">
@@ -53,7 +53,7 @@
                         <label class="tf1" for='inputGroupFile01'>Photo Profile</label>
                         <input type='file' class='profin form-control' id='inputGroupFile01' value='" "' name='gambar' style='height: 35px; width: 15rem;'>
                         <div class="text-center pt-2 mb-2 mt-3 ">
-                            <button class="btn btn-dark" type="submit" name="submit" onclick="" style="width: 200px ">Update</button>
+                            <button class="btn btn-dark" type="submit" name="submit" onclick="" style="width: 1000px ">Update</button>
                         </div>
                         
                     </form>
