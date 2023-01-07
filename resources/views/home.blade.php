@@ -8,7 +8,6 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <!-- Container wrapper -->
         <div class="container-fluid">
-
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse main-nav" id="navbarSupportedContent">
             <!-- Navbar brand -->
@@ -20,6 +19,7 @@
                 loading="lazy"
             />
             </a>
+            @auth
             <!-- Left links -->
             <ul class="navbar-nav mx-auto">
             <li class="nav-item">
@@ -41,11 +41,11 @@
             </ul>
             <!-- Left links -->
         </div>
+        @else
         <form class="navlogbut d-flex">
             <button class="btn btn-outline-light bg-secondary rounded-pill mb-3" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
         </form>
-        
-        
+        @endauth
     </nav>
     <!-- Navbar -->
 
