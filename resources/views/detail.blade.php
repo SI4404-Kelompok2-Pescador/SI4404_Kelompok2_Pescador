@@ -22,7 +22,7 @@
 
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <!-- Container wrapper -->
         <div class="container-fluid">
@@ -41,31 +41,37 @@
             <!-- Left links -->
             <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">Dashboard</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/">About</a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="product">Product</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">Service</a>
+                <a class="nav-link" href="detail">Detail</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="profileview">Profile</a>
+                <a class="nav-link" href="contact">Contact</a>
             </li>
-
             </ul>
             <!-- Left links -->
         </div>
         <form class="navlogbut d-flex">
-            <button class="btn btn-outline-light bg-secondary" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
+            <a href="cart" class="btn px-0 ml-2">
+                <i class="fas fa-shopping-cart text-warning"></i>
+                <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">5</span>
+            </a>
+            <a href="wishlist" class="btn px-0 ml-2">
+                <i class="fas fa-heart text-warning"></i>
+                <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">10</span>
+            </a>
         </form>
         
         
     </nav>
-    <!-- Navbar -->
+
+
+    <!-- Navbar End -->
+
 
   
     <!-- Coursel -->
@@ -132,7 +138,7 @@
                             </div>
                         </div>                
                         <a class="" href="cart"><button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i></button></a>         
-                        <a class="" href="payment"><button class="btn btn-primary px-3 ml-3" ><i class="fa fa-buy mr-1" ></i> Beli Sekarang</button></a>
+                        <a class="" href="product"><button class="btn btn-primary px-3 ml-3" ><i class="fa fa-buy mr-1" ></i> Beli Sekarang</button></a>
                     </div>
                     <div class="d-flex pt-2">
                         <strong class="text-dark mr-2">Share on:</strong>
