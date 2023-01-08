@@ -7,6 +7,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<script>
+        const myModal = document.getElementById('Modal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+        myInput.focus()
+        })
+</script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+></script>
+
+
 <section>
 <div id="sidebar"> 
             <div class="white-label">
@@ -69,7 +84,45 @@
                     </li>
                  
                 </ul>
-                <button class="btn btn-primary">+ Top Up Saldo</button>
+                <button class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">+ Top Up Saldo</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">TOP UP</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="dropdown">
+                            <!--  -->
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Payment Method
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">BCA</a></li>
+                            <li><a class="dropdown-item" href="#">MANDIRI</a></li>
+                            <li><a class="dropdown-item" href="#">BNI</a></li>
+                        </ul>
+                        </div>
+                            <!--  -->
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="https://1.bp.blogspot.com/-FTQm_MW2tpc/XbznCfNSYwI/AAAAAAAAAs8/BRHfAp2MsjIbv2caSh_UkH6ju2PMGwrawCLcBGAsYHQ/s1600/QR_code_for_mobile_English_Wikipedia.svg.png" alt="">
+                        </div>
+        
+                        <div class="modal-body">
+                            <label class="mb-1" for="">NOMINAL</label><br>
+                            <input type="text"></input>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>          
+                            <a href="historytr"><button type="button" class="btn btn-primary">Request</button></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="table-responsive mt-3">
                 <table class="table table-dark table-borderless">

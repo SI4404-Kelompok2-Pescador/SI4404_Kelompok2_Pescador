@@ -1,6 +1,17 @@
 @extends('layouts.layout')
 @section('content')
 
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
+
     <head>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -21,9 +32,6 @@
                         <!-- Left links -->
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#coursel">Dashboard</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="#lamankedua">About</a>
                             </li>
                             <li class="nav-item">
@@ -33,11 +41,35 @@
                                 <a class="nav-link" href="#lamankeenam">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="profileview">Profile</a>
+                                <a class="nav-link" href="#">Contact</a>
                             </li>
 
                         </ul>
                         <!-- Left links -->
+                        <ul class="navbar-nav">
+                        <!-- Avatar -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
+                                height="33" alt="Avatar" loading="lazy" />
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="profileview">My profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="profileupdate">Settings</a>
+                            </li>
+                            <li>
+                            {{-- post logout method from route --}}
+                            <form action="{{ route('logout.post') }}" method="POST">
+                                @csrf
+                                <button type="submit" class="btn btn-dark rounded-pill" style="width:100px; margin-left:30px; margin-top:20px;">Logout</button>
+                            </li>
+                            </ul>
+                        </li>
+                        </ul>
                     @else
                 </div>
                 {{-- @else --}}
