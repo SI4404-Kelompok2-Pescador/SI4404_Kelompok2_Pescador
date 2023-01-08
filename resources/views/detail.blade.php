@@ -60,7 +60,7 @@
             <!-- Left links -->
         </div>
         <form class="navlogbut d-flex">
-            <button class="btn btn-outline-light bg-secondary=" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
+            <button class="btn btn-outline-light bg-secondary" type="submit" ><a class="nav-link" href="login">LOGIN</a></button>
         </form>
         
         

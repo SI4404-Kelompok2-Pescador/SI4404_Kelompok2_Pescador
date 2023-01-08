@@ -21,7 +21,7 @@ body {
 	background-color:#222;
 	min-height:100px;
 	max-width:1000px;
-	margin:120px auto;
+	margin:110px auto;
 	padding:2px 30px
 }
 .dark,.input:focus {
@@ -184,6 +184,8 @@ tbody tr td .fa-long-arrow-up,tbody tr td .fa-long-arrow-down {
 	color:#eee;
 	cursor:crosshair
 }
+/*  */
+
 @media(min-width:768px) and (max-width:991px) {
 	.wrapper {
 		margin:auto
