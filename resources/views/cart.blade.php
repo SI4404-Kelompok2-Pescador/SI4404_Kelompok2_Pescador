@@ -49,10 +49,10 @@
                 <a class="nav-link" href="product">Product</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">Contact</a>
+                <a class="nav-link" href="detail">Detail</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="profileview">Profile</a>
+                <a class="nav-link" href="contact">Contact</a>
             </li>
 
             </ul>
@@ -71,8 +71,6 @@
         
         
     </nav>
-
-
     <!-- Navbar End -->
 
 
@@ -225,7 +223,7 @@
                             <h5>Total</h5>
                             <h5>Rp.38.000</h5>
                         </div>
-                        <a href="payment"><button class="btn btn-block btn-primary font-weight-bold my-3 py-3">Beli Sekarang</button></a>  
+                        <a href="product"><button class="btn btn-block btn-primary font-weight-bold my-3 py-3">Beli Sekarang</button></a>  
                     </div>
                 </div>
             </div>

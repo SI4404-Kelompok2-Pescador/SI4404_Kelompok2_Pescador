@@ -73,3 +73,7 @@ Route::get('/cart', function () {
 Route::get('/wishlist', function () {
     return view('wishlist');
 });
+
+Route::get('/contact', function () {
+    return view('contact');
+});

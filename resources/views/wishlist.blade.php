@@ -49,12 +49,11 @@
                 <a class="nav-link" href="product">Product</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/">Contact</a>
+                <a class="nav-link" href="detail">Detail</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="profileview">Profile</a>
+                <a class="nav-link" href="/">Contact</a>
             </li>
-
             </ul>
             <!-- Left links -->
         </div>

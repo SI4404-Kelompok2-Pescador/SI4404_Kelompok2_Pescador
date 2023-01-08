@@ -32,11 +32,18 @@
     
    
 }
+
+
 /* Navbar text setting*/
 .navbar-nav{
-    padding: 4px 230px; 
+    padding: 4px 360px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
        
+}
+
+
+.logonav{
+    margin-left: 140px;
 }
 /* nevbar logo setting */
 .navbar-brand{

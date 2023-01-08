@@ -25,9 +25,13 @@
                 <!-- Collapsible wrapper -->
                 <div class="collapse navbar-collapse main-nav" id="navbarSupportedContent">
                     <!-- Navbar brand -->
-                    <a class="navbar-brand">
+                    <div class="logonav">
                         <img src="assets/img/logowh.png" height="45" alt="" loading="lazy" />
+                    </div>
+                    
+                    <a class="navbar-brand">      
                     </a>
+                   
                     @if (session('user'))
                         <!-- Left links -->
                         <ul class="navbar-nav mx-auto">
@@ -41,7 +45,7 @@
                                 <a class="nav-link" href="#lamankeenam">Service</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="contact">Contact</a>
                             </li>
 
                         </ul>
