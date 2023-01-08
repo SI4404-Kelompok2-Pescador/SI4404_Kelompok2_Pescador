@@ -72,7 +72,7 @@ html, body {
   #sidebar {
     overflow: hidden;
     width: 240px;
-    height: 903px;
+    height: 100vh;
     float: left;
     background: #2A2D33;
   }
