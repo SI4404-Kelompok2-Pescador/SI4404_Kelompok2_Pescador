@@ -18,7 +18,7 @@
                   {{-- post logout method from route --}}
                   <form action="{{ route('logout.post') }}" method="POST">
                     @csrf
-                    <button type="submit" class="btn btn-danger rounded-pill" style="width:190px; margin-left:30px; margin-top:420px;">Logout</button>
+                    <button type="submit" class="btn btn-danger rounded-pill" style="width:190px; margin-left:30px; margin-top:420px; ">Logout</button>
                 </li>
               </ul>
             </div>
