@@ -32,7 +32,7 @@ html, body {
   .white-label {
     float: left;
     background: #33373B;
-    max-width: 240px;
+    max-width: 250px;
     padding: 10px;
     min-height: 65px;
     background: #a2a2a2;
@@ -71,7 +71,7 @@ html, body {
   /*  */
   #sidebar {
     overflow: hidden;
-    width: 240px;
+    width: 250px;
     height: 100vh;
     float: left;
     background: #2A2D33;
@@ -101,7 +101,7 @@ html, body {
   #sidebar-nav ul li a {
     color: #C2C2C2;
     font-size: .95em;
-    padding: 15px 20px;
+    padding: 23px 20px;
     float: left;
     width: 100%;
     font-weight: 600;
@@ -125,7 +125,7 @@ html, body {
     padding-right: 8px;
     font-size: 1.3em;
     color: #60636B;
-    width: 25px;
+    width: 35px;
     text-align: center;
   }
 
@@ -170,4 +170,27 @@ html, body {
 .ppstyle{
     border-radius: 100%;
     top: 1002px;
+}
+
+
+
+/* laman kelima */
+.lamanke5{
+    filter: grayscale(1%); 
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateY();
+    border-radius: 10px;
+}
+.textll1{
+    text-align: center;
+    top: 45%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    color: #cecece;
+}
+.subt{
+  
 }

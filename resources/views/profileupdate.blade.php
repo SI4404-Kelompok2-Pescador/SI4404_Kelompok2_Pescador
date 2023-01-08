@@ -1,5 +1,6 @@
 @extends('layouts.profile-layout')
 @section('content')
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 <section>
 <div id="sidebar"> 
             <div class="white-label">
@@ -7,10 +8,10 @@
             </div> 
             <div id="sidebar-nav">   
               <ul>
-                <li><a href="profileview"><i class="pesanan"></i> Profile</a></li> 
-                <li class="active"><a href="#"><i class="fa fa-dashboard"></i> Settings</a></li>  
-                <li><a href="historytr"><i class=""></i> History Transaction</a></li>
-                <li><a href="toko"><i class=""></i> TOKO</a></li>    
+                <li><a href="profileview"><i class="fa fa-user"></i> Profile</a></li> 
+                <li class="active"><a href="#"><i class="fa fa-cog"></i> Settings</a></li>  
+                <li><a href="historytr"><i class="fas fa-shopping-cart"></i> History Transaction</a></li>
+                <li><a href="toko"><i class="fa fa-home"></i> TOKO</a></li>    
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
                 <li><a href="login" rel="stylesheet">Log Out</a></li>
