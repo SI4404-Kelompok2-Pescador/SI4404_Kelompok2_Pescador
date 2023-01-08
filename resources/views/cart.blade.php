@@ -63,7 +63,7 @@
                 <i class="fas fa-shopping-cart text-warning"></i>
                 <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">5</span>
             </a>
-            <a href="product" class="btn px-0 ml-2">
+            <a href="wishlist" class="btn px-0 ml-2">
                 <i class="fas fa-heart text-warning"></i>
                 <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">10</span>
             </a>
