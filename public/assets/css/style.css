@@ -164,25 +164,25 @@
     top: 50%;
     height: 100%;
     width: 100%;
-    padding: 12px 910px 9px 10px;
+    padding: 120px 910px 9px 10px;
     position: absolute;
     color: #cecece;
 }
 .emo{
 
-    top: 25%;
+    top: 30%;
     height: 100%;
     width: 100%;
-    padding: 3px 9px 9px 750px;
+    padding: 3px 9px 9px 1050px;
     position: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .emo2{
 
-    top: 25%;
+    top: 30%;
     height: 100%;
     width: 100%;
-    padding: 3px 9px 9px 1050px;
+    padding: 3px 9px 9px 1350px;
     position: absolute;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

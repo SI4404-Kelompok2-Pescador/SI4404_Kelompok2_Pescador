@@ -20,7 +20,12 @@
                 <li><a href="toko"><i class="fa fa-home"></i> TOKO</a></li>
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
-                <li><a href="login" rel="stylesheet">Log Out</a></li>
+                <li>
+                  {{-- post logout method from route --}}
+                  <form action="{{ route('logout.post') }}" method="POST">
+                    @csrf
+                    <button type="submit" class="btn btn-danger rounded-pill" style="width:190px; margin-left:30px; margin-top:420px; ">Logout</button>
+                </li>
               </ul>
             </div>
 
