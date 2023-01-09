@@ -96,6 +96,10 @@ Route::get('/productview', function () {
     return view('productview');
 });
 
+Route::get('/logintoko', function () {
+    return view('logintoko');
+});
+
 
 
 // admin
