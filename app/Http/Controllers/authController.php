@@ -88,6 +88,26 @@ class authController extends Controller
         // then pass to frontend as user
         $user = $response->data;
         // dd($user);
-        return view('profileview', compact('user'));
+        $balance = DB::table('user_balances')->where('user_id', $user->id)->first();
+        // check if use balance is exist in database
+        // if not, create new balance
+        if (!$balance) {
+            DB::table('user_balances')->insert([
+                // generate uuid
+                'id' => \Illuminate\Support\Str::uuid(),
+                'user_id' => $user->id,
+                'balance' => 0,
+            ]);
+        }
+        $user_balance = $balance->balance;
+
+        if ($user_balance == 0) {
+            $user_balance = 0;
+        } else {
+            $user_balance = $balance->balance;
+        }
+
+        // dd($user);
+        return view('profileview', compact('user', 'user_balance'));
     }
 }
