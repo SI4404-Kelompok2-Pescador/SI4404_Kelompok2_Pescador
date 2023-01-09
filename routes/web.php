@@ -22,6 +22,9 @@ Route::post('/register', [authController::class, 'register'])->name('register.po
 Route::post('/logout', [authController::class, 'logout'])->name('logout.post');
 // ========================== AUTH ==========================
 
+// ========================== USER ==========================
+Route::get('/profileview', [authController::class, 'profile'])->name('profileview');
+
 Route::get('/', function () {
     return view('home');
 });
@@ -34,9 +37,9 @@ Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/profileview', function () {
-    return view('profileview');
-});
+// Route::get('/profileview', function () {
+//     return view('profileview');
+// });
 
 Route::get('/profileupdate', function () {
     return view('profileupdate');
