@@ -88,7 +88,7 @@ class authController extends Controller
         // then pass to frontend as user
         $user = $response->data;
         // dd($user);
-        $balance = DB::table('user_balances')->where('user_id', $user->id)->first();      
+        $balance = DB::table('user_balances')->where('user_id', $user->id)->first();
         // check if use balance is exist in database
         // if not, create new balance
         if (!$balance) {
@@ -100,7 +100,7 @@ class authController extends Controller
             ]);
         }
         $user_balance = $balance->balance;
-        
+
         if ($user_balance == 0) {
             $user_balance = 0;
         } else {
