@@ -1,6 +1,6 @@
 @extends('layouts.profile-layout')
 @section('content')
-{{-- @dd($user) --}}
+    {{-- @dd($user) --}}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <section>
         <div id="sidebar">
@@ -44,9 +44,15 @@
                 <div class="col-lg-4">
                     <div class="card mb-4">
                         <div class="card-body text-center">
-
-                            <img src="{{ asset('storage/' . $user->image)}}"
-                                alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                            {{-- Get User Image --}}
+                            {{-- if User doesn't has image return template image --}}
+                            @if ($user->image == null)
+                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+                                    alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                            @else
+                                <img src="{{ asset('storage/' . $user->image) }}" alt="avatar"
+                                    class="rounded-circle img-fluid" style="width: 150px;">
+                            @endif
                             {{-- Get User Name --}}
                             <h5 class="my-3">{{ $user->name }}</h5>
                             {{-- <p class="text-muted mb-1">{{ $u->email }}</p>
@@ -71,7 +77,7 @@
                                         <p class="mb-2"><span class="text-primary font-italic me-1">SALDO AKUN</span>
                                         </p>
                                         <div class="col-sm-9">
-                                            <p class="text-muted mb-3">Rp.758.223</p>
+                                            <p class="text-muted mb-3">Rp.{{ $user_balance }}</p>
                                         </div>
                                         <div class="d-flex justify-content-center mb-1">
                                             <a href="topup"><button type="button"
@@ -91,7 +97,7 @@
                                     <p class="mb-0">Full Name</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Joni Setiawan</p>
+                                    <p class="text-muted mb-0">{{ $user->name }}</p>
                                 </div>
                             </div>
                             <hr>
@@ -100,7 +106,7 @@
                                     <p class="mb-0">Email</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">tenangaja@gmail.com</p>
+                                    <p class="text-muted mb-0">{{ $user->email }}</p>
                                 </div>
                             </div>
                             <hr>
@@ -109,7 +115,7 @@
                                     <p class="mb-0">Phone</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">(+62) 8134-5678-192</p>
+                                    <p class="text-muted mb-0">{{ $user->phone }}</p>
                                 </div>
                             </div>
                             <hr>
@@ -118,7 +124,7 @@
                                     <p class="mb-0">Address</p>
                                 </div>
                                 <div class="col-sm-9">
-                                    <p class="text-muted mb-0">Babatan, Jambi, Indonesia</p>
+                                    <p class="text-muted mb-0">{{ $user->address }}</p>
                                 </div>
                             </div>
                         </div>
