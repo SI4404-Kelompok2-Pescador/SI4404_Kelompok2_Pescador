@@ -6,14 +6,15 @@
 			<div class="left">
 				<div class="top_link"><a href="{{'login'}}"><img src="https://drive.google.com/u/0/uc?id=16U__U5dJdaTfNGobB_OpwAJ73vM50rPV&export=download" alt="">Return Login</a></div>
 				<div class="contact" style="height: 34rem;">
-					<form action="">
+					<form action="{{route('register.post')}}" method="post" enctype="multipart/form-data">
+						@csrf
 						<h3>SIGN UP</h3>
                         <input type="text" name="name" id="name" placeholder="NAME">
 						<input type="text" name="email" id="email" placeholder="E-MAIL">
                         <input type="text" name="phone" id="phone" placeholder="PHONE NUMBER">
                         <input type="text" name="address" id="address" placeholder="ADDRESS">
 						<input type="password" name="password" id="password" placeholder="PASSWORD">  
-                        <input type="file" class="form-control" id="inputGroupFile01" name="gambar" style="height: 40px;">  					
+                        <input type="file" class="form-control" id="inputGroupFile01" name="image" style="height: 40px;">  					
                         <a href="{{'login'}}"><button class="submit1" type="submit" name="submit">REGISTER</button></a>
 					</form>
 				</div>
