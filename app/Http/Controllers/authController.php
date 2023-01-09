@@ -20,17 +20,20 @@ class authController extends Controller
             $image = $request->file('image');
 
             $response = Http::attach('img', file_get_contents($image), $image->getClientOriginalName())
-                ->post(env('API') . '/register', $request->all());
+                ->post(env('API') . '/register', [
+                    'name' => $request->input('name'),
+                    'email' => $request->input('email'),
+                    'password' => $request->input('password'),
+                    'password_confirmation' => $request->input('password_confirmation'),
+                    'phone' => $request->input('phone'),
+                    'address' => $request->input('address'),
+                    'image' => $request->file('image')->store('public/images'),
+                ]);
         } else {
             $response = Http::post(env('API') . '/register', $request->all());
         }
 
         $response = $response->json();
-
-        // store image in local storage
-        if ($response['status'] == 'success') {
-            $image = Storage::disk('public')->put('img', $response['data']['image']);
-        }
 
         return redirect('/login')->with('success', $response['message']);
     }

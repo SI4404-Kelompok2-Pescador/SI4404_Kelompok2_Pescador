@@ -1,5 +1,6 @@
 @extends('layouts.profile-layout')
 @section('content')
+{{-- @dd($user) --}}
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <section>
         <div id="sidebar">
@@ -44,7 +45,7 @@
                     <div class="card mb-4">
                         <div class="card-body text-center">
 
-                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+                            <img src="{{ asset('storage/' . $user->image)}}"
                                 alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                             {{-- Get User Name --}}
                             <h5 class="my-3">{{ $user->name }}</h5>
