@@ -77,3 +77,36 @@ Route::get('/wishlist', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/addtoko', function () {
+    return view('addtoko');
+});
+
+Route::get('/order', function () {
+    return view('order');
+});
+
+Route::get('/productview', function () {
+    return view('productview');
+});
+
+
+
+// admin
+
+Route::get('/admindash', function () {
+    return view('admindash');
+});
+
+Route::get('/storeview', function () {
+    return view('storeview');
+});
+
+Route::get('/category', function () {
+    return view('category');
+});
+
+Route::get('/settings', function () {
+    return view('settings');
+});
+

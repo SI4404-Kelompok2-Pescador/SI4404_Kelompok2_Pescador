@@ -32,6 +32,7 @@
                 <li><a href="profileupdate"><i class="fa fa-cog"></i> Settings</a></li>   
                 <li><a href="historytr"><i class="fa fa-shopping-cart"></i> History Transaction</a></li>         
                 <li class="active"><a href=""><i class="fa fa-home"></i> TOKO</a></li>
+                <li class=""><a href="addtoko"><i class="fa fa-home"></i> TOKO VIEW</a></li>
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
                 <!-- <li>
@@ -61,13 +62,20 @@
     
       <section class="" id="">
     
-        <div class="">
+        <div class="text-center shadow-lg p-3 mb-5 bg-white rounded" style="margin-top:270px; margin-left:40vh; width:100vh;">
+          <!-- <div class="text-center">
+            <img src="https://c4.wallpaperflare.com/wallpaper/254/791/584/the-city-people-train-thailand-bangkok-hd-wallpaper-preview.jpg" alt="" style="width:1000px; border-radius:20px;">
+          
+          
+          </div> -->
             <div class="">
               <h1>Mari Daftarkan Toko Anda</h1>
             </div>
             
             <div class="mt-4" >
             <button class="subt btn btn-success rounded-pill mb-3 " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >DAFTARKAN TOKO</button>
+            <a href="login"><button class="subt btn btn-primary rounded-pill mb-3">LOGIN TOKO</button></a>
+            
 
                 <!-- Modal -->
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -108,9 +116,11 @@
                   </div>
                 </div>
 
+
+
         </div>
 
-
+<!-- 
         <div class="row">
           <div class="col-md-6">
             <div class="card mb-4 mb-md-0">
@@ -151,7 +161,7 @@
         
         
 
-
+ -->
 
 </section>
 

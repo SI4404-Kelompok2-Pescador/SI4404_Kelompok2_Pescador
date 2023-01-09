@@ -56,6 +56,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="profileview">/</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="admindash">/</a>
+            </li>
 
             </ul>
             <!-- Left links -->
