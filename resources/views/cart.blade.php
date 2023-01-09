@@ -74,6 +74,9 @@
             <!-- Left links -->
         </div>
         <form class="navlogbut d-flex">
+            <a href="orderuser" class="btn px-0 ml-2" style="margin-right:20px;">
+                <i class="fas fa-truck text-warning"></i>
+            </a>
             <a href="cart" class="btn px-0 ml-2">
                 <i class="fas fa-shopping-cart text-warning"></i>
                 <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">5</span>
@@ -82,6 +85,7 @@
                 <i class="fas fa-heart text-warning"></i>
                 <span class="badge text-light border border-light rounded-circle" style="padding-bottom: 2px;">10</span>
             </a>
+          
         </form>
         
         
