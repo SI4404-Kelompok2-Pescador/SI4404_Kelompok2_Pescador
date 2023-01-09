@@ -100,6 +100,9 @@ Route::get('/logintoko', function () {
     return view('logintoko');
 });
 
+Route::get('/orderuser', function () {
+    return view('orderuser');
+});
 
 
 // admin
