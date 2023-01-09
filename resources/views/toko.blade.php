@@ -110,7 +110,7 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>       
-                        <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DAFTAR</button></a>   
+                        <a href="{{'logintoko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DAFTAR</button></a>   
                       </div>
                     </div>
                   </div>
