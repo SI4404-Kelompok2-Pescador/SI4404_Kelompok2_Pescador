@@ -143,17 +143,15 @@
             ">
             </div>
             <div class="ml1" style="">
-                <h1>Beri Makan Ikan untuk Dunia</h1>
-                <p1>Pandemi menyebabkan dampak berkepanjangan pada ketahanan
-                    <br>pangan global. Sekitar 660 juta orang masih akan menghadapi isu
-                    <br>kelaparan di tahun 2030. Akuakultur, sebagai sektor bisnis dengan
-                    <br>pertumbuhan yang pesat, memiliki potensi untuk berkontribusi
-                    <br>secara signifikan terhadap ketahanan pangan. eFishery percaya
-                    <br>bahwa “The Future is Aquaculture”. Menggunakan kemajuan
-                    <br>teknologi, eFishery membangun value chain yang sistematis untuk
-                    <br>bisnis budidaya ikan dan udang, menghasilkan ekosistem yang
-                    <br>terintegrasi dan berkelanjutan untuk memperkuat ketahanan pangan
-                    <br>global di masa mendatang.
+                <h1>About Pescador</h1>
+                <br>
+                <p1>Pescador adalah marketplace untuk penjualan hasil perairan nelayan 
+                    <br>secara end-to-end. Pescador hadir sebagai solusi bagi nelayan untuk 
+                    <br>menjangkau customer yang lebih luas tanpa perantara.
+                    <br>Dengan ini Pescador menawarkan solusi seperti
+                    <br>Customer Mendapatkan ikan yang fresh karena langsung dari nelayan,
+                    <br>Nelayan bisa menjangkau customer yang lebih luas,
+                    <br>Meningkatkan hasil export perikanan
                 </p1>
 
             </div>
@@ -219,17 +217,24 @@
                 <img src="assets/img/bg22.png" alt="" style="width: 100%;";>
             </div>
             <div class="textle1" style="">
-                <h1>Solusi Kami untuk Dunia Akuakultur</h1>
-                <p1>Pandemi menyebabkan dampak berkepanjangan pada ketahanan
-                    <br>pangan global. Sekitar 660 juta orang masih akan menghadapi isu
-                    <br>kelaparan di tahun 2030. Akuakultur, sebagai sektor bisnis dengan
-                    <br>pertumbuhan yang pesat, memiliki potensi untuk berkontribusi
-                    <br>secara signifikan terhadap ketahanan pangan. eFishery percaya
-                    <br>bahwa “The Future is Aquaculture”. Menggunakan kemajuan
-                    <br>teknologi, eFishery membangun value chain yang sistematis untuk
-                    <br>bisnis budidaya ikan dan udang, menghasilkan ekosistem yang
-                    <br>terintegrasi dan berkelanjutan untuk memperkuat ketahanan pangan
-                    <br>global di masa mendatang.
+                <h1>Pescador percaya,</h1>
+                <h1>bahwa sektor perikanan adalah</h1>
+                <h1>kunci mengatasi isu kelaparan dunia.</h1>
+                <p1>Namun, besar potensinya bukan berarti mudah mencapai tujuannya.
+                    <br>Sektor perikanan masih harus menghadapi tantangan yang kompleks untuk dapat terus produktif.
+                    <br>
+                    <br>Tantangan yang ada mendorong Pescador menciptakan solusi sistematis untuk memfasilitasi setiap 
+                    <br>langkah proses budidaya. Produk dan layanan Pescador yang sekarang tersedia; dan kelak dibuat, 
+                    <br>ada untuk mendukung penuh bisnis perikanan. Lebih dari itu, produk dan layanan Pescador ada 
+                    <br>untuk membangun ekosistem, di mana para Pembudidaya ikan dan udang dapat meningkatkan produktivitas 
+                    <br>sekaligus menciptakan lingkungan yang berkelanjutan.
+                    <br>
+                    <br>Mendukung finansial Pembudidaya lewat program pembiayaan, menciptakan teknologi untuk meningkatkan 
+                    <br>efisiensi pakan, mendampingi dengan ragam layanan untuk mendorong produktivitas, hingga menyalurkan hasil panen untuk budidaya yang berkelanjutan.
+                    <br>
+                    <br>Inilah solusi yang diberikan, agar kesejahteraan Pembudidaya dapat dihadirkan dan ketahanan pangan dapat diwujudkan.
+                    <br> 
+                
                 </p1>
 
             </div>
@@ -356,8 +361,7 @@
                                                     meningkatkan
                                                     produktivitas, mencegah wabah, dan merekomendasikan
                                                     sistem pengelolaan tambak berbasis data, untuk mendukung tambak para
-                                                    Pembudidaya
-                                                    udang.</p>
+                                                    Pembudidaya.</p>
                                                 <a href="product" class="btn btn-success">Cari Tahu Lebih Lanjut</a>
                                             </div>
                                         </div>
