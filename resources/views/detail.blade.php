@@ -20,6 +20,21 @@
 <!-- Customized Bootstrap Stylesheet -->
 <link href="assets/css/product.css" rel="stylesheet">
 
+<script>
+        const myModal = document.getElementById('Modal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+        myInput.focus()
+        })
+</script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+></script>
+
+
 </head>
 <body>
     <!-- Navbar Start -->
@@ -137,8 +152,56 @@
                                 </button>
                             </div>
                         </div>                
-                        <a class="" href="cart"><button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i></button></a>         
-                        <a class="" href="product"><button class="btn btn-primary px-3 ml-3" ><i class="fa fa-buy mr-1" ></i> Beli Sekarang</button></a>
+                        <a class="" href="cart"><button class="btn btn-primary px-3"><i class="fa fa-shopping-cart mr-1"></i></button></a>    
+
+                        <div>
+                            <button class="btn btn-primary px-3 ml-3" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-buy mr-1" ></i> BUY NOW</button>
+
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">TOP UP</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="dropdown">
+                                            <!--  -->
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Payment Method
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">BCA - 102993322 (BILEM GSHOCK AJ)</a></li>
+                                            <li><a class="dropdown-item" href="#">MANDIRI - 534234344 (BILEM GSHOCK AJ)</a></li>
+                                            <li><a class="dropdown-item" href="#">BNI - 634512343 (BILEM GSHOCK AJ)</a></li>
+                                            <li><a class="dropdown-item" href="#">QRIS</a></li>
+                                        </ul>
+                                        </div>
+                                            <!--  -->
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <h3 class="text-center">QRIS</h3>
+                                            <img src="https://1.bp.blogspot.com/-FTQm_MW2tpc/XbznCfNSYwI/AAAAAAAAAs8/BRHfAp2MsjIbv2caSh_UkH6ju2PMGwrawCLcBGAsYHQ/s1600/QR_code_for_mobile_English_Wikipedia.svg.png" class="rounded mx-auto d-block alt=" style="width:300px; ">
+                                            <p class="text-center">PT.MENCARI CINTA SEJATI</p>
+                                        </div>
+                        
+                                        <!-- <div class="modal-body">
+                                            <h1 class="text-center">
+                                                <label class="mb-1" for="">TOTAL</label><br>
+                                                <input type="text" style="width:29rem; height:2rem;"></input>
+                                            </h1>                               
+                                        </div> -->
+                                        
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>          
+                                            <a href="product"><button type="button" class="btn btn-primary">BUY</button></a>
+                                        </div>
+                                        </div>
+                            </div>
+                        </div>     
+
+                </div>
                     </div>
                     <div class="d-flex pt-2">
                         <strong class="text-dark mr-2">Share on:</strong>
