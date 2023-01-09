@@ -4,6 +4,23 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="{{ asset('assets/css/toko.css') }}">
+
+<script>
+        const myModal = document.getElementById('Modal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+        myInput.focus()
+        })
+</script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+></script>
+
+
+
 <section>
 <div id="sidebar"> 
             <div class="white-label">
@@ -17,17 +34,17 @@
                 <li class="active"><a href=""><i class="fa fa-home"></i> TOKO</a></li>
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
-                <li>
+                <!-- <li>
                   {{-- post logout method from route --}}
                   <form action="{{ route('logout.post') }}" method="POST">
                     @csrf
                     <button type="submit" class="btn btn-danger rounded-pill" style="width:190px; margin-left:30px; margin-top:420px; ">Logout</button>
-                </li>
+                </li> -->
               </ul>
             </div>
 
 </section>
-<section class="row" style="background-color: #eee; height: 100%;">
+<section class="row" style="background-color: #eee; height: 100vh;">
   <div class="container py-5 ">
     <div class=" row">
       <div class="profview col">
@@ -42,17 +59,97 @@
     </div>
 
     
-      <section class="lamanke5" id="lamanke5">
-        <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjrLwf7ixSgnVaBxzMlz0x7pJyWxVk487rTTixdQnzM0M2nTe1pdL5xh3oXIYDZDqtYys&usqp=CAU" alt="" style="width: 100%; height:50vh">
-        </div>
-        <div class="textll1">
-            <h1>Mari Daftarkan Toko Anda</h1>
-            <div class="mt-4" >
-            <button class="subt btn btn-success rounded-pill mb-3" type="submit" ><a class="nav-link" href="login">DAFTARKAN TOKO</a></button>
+      <section class="" id="">
+    
+        <div class="">
+            <div class="">
+              <h1>Mari Daftarkan Toko Anda</h1>
             </div>
+            
+            <div class="mt-4" >
+            <button class="subt btn btn-success rounded-pill mb-3 " data-bs-toggle="modal" data-bs-target="#staticBackdrop" >DAFTARKAN TOKO</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">FORM TOKO</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                         <form>
+                            <div class="mb-3">           
+                            <label for="recipient-name" class="col-form-label">NAME</label>
+                              <input type="text" class="form-control" name="name" id="name" placeholder="NAMA TOKO">
+                            <label for="recipient-name" class="col-form-label">EMAIL</label>
+                              <input type="text" class="form-control" name="email" id="email" placeholder="EMAIL">
+                            <label for="recipient-name" class="col-form-label">PHONE NUMBER</label>
+                              <input type="text" class="form-control" name="phone" id="phone" placeholder="PHONE NUMBER">
+                            <label for="recipient-name" class="col-form-label">ADDRESS</label>
+                              <input type="text" class="form-control" name="address" id="address" placeholder="ADDRESS">
+                            <label for="recipient-name" class="col-form-label">PASSWORD</label>
+                              <input type="text" class="form-control" name="password" id="password" placeholder="PASSWORD">
+                            <label for="recipient-name" class="col-form-label">IMAGE</label>
+                              <input type="file" class="form-control" name="image" id="image" name="gambar" style="height: 40px;">  
+                
+                            </div>
+                            <!-- <div class="mb-3">
+                              <label for="message-text" class="col-form-label">Message:</label>
+                              <textarea class="form-control" id="message-text"></textarea>
+                            </div> -->
+                          </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>       
+                        <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DAFTAR</button></a>   
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
         </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-4 mb-md-0">
+              <div class="card-body">
+                <p class="mb-4"><span class="text-primary font-italic me-1">PRODUCT</span>
+                </p>
+                <p class="mb-1" style="font-size: .77rem;">January</p>
+                <div class="progress rounded" style="height: 5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="mt-4 mb-1" style="font-size: .77rem;">June</p>
+                <div class="progress rounded" style="height: 5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 72%" aria-valuenow="72"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="d-flex justify-content-center mb-2 mt-4">
+                <a href="historytr"><button type="button" class="btn btn-primary" style="width: 15rem;">View</button></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 mb-md-0">
+              <div class="card-body">
+                <p class="mb-4"><span class="text-primary font-italic me-1">HISTORY TRANSAKSI</span>
+                </p>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0">History Belanja Anda</p>
+              </div>
+              <div class="d-flex justify-content-center mb-2 mt-4">
+                <a href="historytr"><button type="button" class="btn btn-primary" style="width: 15rem;">View</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        
 
 
 

@@ -35,12 +35,12 @@
                 <li><a href="toko"><i class="fa fa-home"></i> TOKO</a></li>
                 <li></li>
                 <li><a href="/" rel="stylesheet">Home</a></li>
-                <li>
+                <!-- <li>
                   {{-- post logout method from route --}}
                   <form action="{{ route('logout.post') }}" method="POST">
                     @csrf
                     <button type="submit" class="btn btn-danger rounded-pill" style="width:190px; margin-left:30px; margin-top:420px; ">Logout</button>
-                </li>
+                </li> -->
               </ul>
             </div>
 
@@ -105,21 +105,24 @@
                             Payment Method
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">BCA</a></li>
-                            <li><a class="dropdown-item" href="#">MANDIRI</a></li>
-                            <li><a class="dropdown-item" href="#">BNI</a></li>
+                            <li><a class="dropdown-item" href="#">BCA - 102993322 (BILEM GSHOCK AJ)</a></li>
+                            <li><a class="dropdown-item" href="#">MANDIRI - 534234344 (BILEM GSHOCK AJ)</a></li>
+                            <li><a class="dropdown-item" href="#">BNI - 634512343 (BILEM GSHOCK AJ)</a></li>
+                            <li><a class="dropdown-item" href="#">QRIS</a></li>
                         </ul>
                         </div>
                             <!--  -->
                         </div>
 
                         <div class="modal-body">
+                            <h3 class="text-center">QRIS</h3>
                             <img src="https://1.bp.blogspot.com/-FTQm_MW2tpc/XbznCfNSYwI/AAAAAAAAAs8/BRHfAp2MsjIbv2caSh_UkH6ju2PMGwrawCLcBGAsYHQ/s1600/QR_code_for_mobile_English_Wikipedia.svg.png" alt="">
+                            <p class="text-center">BILEM GSHOCK AJ</p>
                         </div>
         
                         <div class="modal-body">
                             <label class="mb-1" for="">NOMINAL</label><br>
-                            <input type="text"></input>
+                            <input type="text" style="width:29rem; height:2rem;"></input>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>          
