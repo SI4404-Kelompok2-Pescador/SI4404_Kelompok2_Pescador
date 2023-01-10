@@ -53,7 +53,7 @@
           <div class="col-md-6">
             <div class="card mb-4 mb-md-0">
               <div class="card-body">
-                <p class="mb-4"><span class="text-primary font-italic me-1">JUMLAH TRANSAKSI</span>
+                <p class="mb-4"><span class="text-primary font-italic me-1">TRANSACTION HISTORY</span>
                 </p>
                 <p class="mb-1" style="font-size: .77rem;">January</p>
                 <div class="progress rounded" style="height: 5px;">
@@ -74,10 +74,10 @@
           <div class="col-md-6">
             <div class="card mb-4 mb-md-0">
               <div class="card-body">
-                <p class="mb-4"><span class="text-primary font-italic me-1">HISTORY TRANSAKSI</span>
+                <p class="mb-4"><span class="text-primary font-italic me-1">VIEW STORE</span>
                 </p>
               <div class="col-sm-9">
-                <p class="text-muted mb-0">History Belanja Anda</p>
+                <p class="text-muted mb-0">store</p>
               </div>
               <div class="d-flex justify-content-center mb-2 mt-4">
                 <a href="historytr"><button type="button" class="btn btn-primary" style="width: 15rem;">View</button></a>

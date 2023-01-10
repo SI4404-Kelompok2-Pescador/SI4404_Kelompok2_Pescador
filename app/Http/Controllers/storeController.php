@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Http\Request;
 
@@ -36,5 +38,16 @@ class storeController extends Controller
         $response = $response->json();
 
         return redirect('/login')->with('success', $response['message']);
+    }
+
+    public function loginStore(Request $request)
+    {
+        $response = Http::post(env('API') . '/login-store', [
+            'email' => $request->input('email'),
+            'password' => $request->input('password'),
+        ]);
+        $response = $response->json();
+
+        return redirect('/addtoko')->with('error', 'Invalid credentials');
     }
 }

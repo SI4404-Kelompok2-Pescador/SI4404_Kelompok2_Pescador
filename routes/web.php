@@ -34,11 +34,15 @@ Route::get('/historytr', [balanceController::class, 'getbalance'])->name('histor
 
 // ========================== Store ==========================
 Route::post('/store', [storeController::class, 'registerStore'])->name('store.post');
+Route::post('/login-store', [storeController::class, 'loginStore'])->name('login.store');
 
 
 // ========================== ADMIN ==========================
 Route::get('/admindash', [adminController::class, 'dashboard'])->name('admindash');
 Route::post('/category', [adminController::class, 'createCategory'])->name('category.post');
+Route::delete('/category/{id}', [adminController::class, 'deleteCategory'])->name('category.delete');
+Route::get('/category', [adminController::class, 'showAllCategories'])->name('category');
+Route::get('/storeview', [adminController::class, 'showAllStores'])->name('storeview');
 
 Route::get('/', function () {
     return view('home');
@@ -123,15 +127,14 @@ Route::get('/orderuser', function () {
 //     return view('admindash');
 // });
 
-Route::get('/storeview', function () {
-    return view('storeview');
-});
+// Route::get('/storeview', function () {
+//     return view('storeview');
+// });
 
-Route::get('/category', function () {
-    return view('category');
-});
+// Route::get('/category', function () {
+//     return view('category');
+// });
 
 Route::get('/settings', function () {
     return view('settings');
 });
-

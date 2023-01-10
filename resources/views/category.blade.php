@@ -88,9 +88,18 @@
                             <script>
                                 document.getElementById('add-button').addEventListener('click', function(event) {
                                     event.preventDefault();
-                                    console.log('click');
-                                    let test = document.getElementById('cc-form');
-                                    console.log(test);
+                                    const formData = new FormData();
+                                    let nama = document.getElementById("name").value
+                                    let token =  document.querySelector('input[name="_token"]').value
+                                    formData.append("name", nama)
+                                    formData.append("_token", token)
+                                    fetch('/category', {
+                                        method: 'POST',
+                                        headers: {
+                                            "X-CSRF-Token": document.querySelector('input[name=_token]').value
+                                        },
+                                        body : formData
+                                    }).then(window.location.href = '/category')
                                 });
 
                                 document.getElementById('close-button').addEventListener('click', function(event) {
@@ -109,122 +118,30 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="col-lg-2 col-md-4 col-sm-6 pb-1">
-                                    <div class="product-item bg-light mb-4 shadow-lg bg-white rounded" style="border-radius:10px;">
-                                        <div class="position-relative overflow-hidden">
-                                            <div class="product-action text-center"style="margin-top:50px;">
-                                                <a class="h6 text-decoration-none text-truncate" href="" >IKAN AIR TAWAR</a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center py-4">
-                                            
-                                        </div>
-                                    </div>
-                        </div>
-
-                        <div class="col-lg-2 col-md-4 col-sm-6 pb-1">
-                                    <div class="product-item bg-light mb-4 shadow-lg bg-white rounded style="border-radius:10px;">
-                                        <div class="position-relative overflow-hidden">
-                                            <div class="product-action text-center"style="margin-top:50px;">
-                                                <a class="h6 text-decoration-none text-truncate" href="" >IKAN LAUT</a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center py-4">
-                                            
-                                        </div>
-                                    </div>
-                        </div>
-
-                        
-                        <div class="col-lg-2 col-md-4 col-sm-6 pb-1">
-                                    <div class="product-item bg-light mb-4 shadow-lg bg-white rounded" style="border-radius:10px;">
-                                        <div class="position-relative overflow-hidden">
-                                            <div class="product-action text-center"style="margin-top:50px;">
-                                                <a class="h6 text-decoration-none text-truncate" href="" >CUMI-CUMI</a>
-                                            </div>
-                                        </div>
-                                        <div class="text-center py-4">
-                                            
-                                        </div>
-                                    </div>
-                        </div>
-
-                     -->
-
-
             <div class="row row-cols-1 row-cols-md-5">
-                <div class="col mb-4">
-                    <!-- Card -->
-                    <div class="card">
-
-                        <!--Card image-->
-
-
-                        <!--Card content-->
-                        <div class="card-body">
-
-                            <!--Title-->
-                            <h4 class="card-title">CUMI-CUMI</h4>
-                            <!--Text-->
-                            <p class="card-text"></p>
-                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <a href="{{ 'toko' }}"><button type="button" class="btn btn-danger" type="submit"
-                                    name="submit">DELETE</button></a>
-
-
+                @foreach ($category as $item)
+                    <div class="col mb-4">
+                        <!-- Card -->
+                        <div class="card">
+                            <!--Card image-->
+                            <!--Card content-->
+                            <div class="card-body">
+                                <!--Title-->
+                                <h4 class="card-title">{{ $item->name }}</h4>
+                                <!--Text-->
+                                <p class="card-text"></p>
+                                {{-- delete category --}}
+                                <form action="{{ route('category.delete', $item->id) }}" method="post">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn btn-danger rounded-pill"
+                                        style="width:190px; margin-left:30px; margin-top:500px;">Delete</button>
+                                </form>
+                            </div>
                         </div>
-
+                        <!-- Card -->
                     </div>
-                    <!-- Card -->
-                </div>
-                <div class="col mb-4">
-                    <!-- Card -->
-                    <div class="card">
-
-                        <!--Card image-->
-
-
-                        <!--Card content-->
-                        <div class="card-body">
-
-                            <!--Title-->
-                            <h4 class="card-title">UDANG</h4>
-                            <!--Text-->
-                            <p class="card-text"></p>
-                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <a href="{{ 'toko' }}"><button type="button" class="btn btn-danger" type="submit"
-                                    name="submit">DELETE</button></a>
-
-                        </div>
-
-                    </div>
-                    <!-- Card -->
-                </div>
-                <div class="col mb-4">
-                    <!-- Card -->
-                    <div class="card">
-
-                        <!--Card image-->
-
-
-                        <!--Card content-->
-                        <div class="card-body">
-
-                            <!--Title-->
-                            <h4 class="card-title">IKAN AIR TAWAR</h4>
-                            <p class="card-text"></p>
-                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                            <a href="{{ 'toko' }}"><button type="button" class="btn btn-danger" type="submit"
-                                    name="submit">DELETE</button></a>
-
-
-                        </div>
-
-                    </div>
-                    <!-- Card -->
-                </div>
-
+                @endforeach
             </div>
 
 

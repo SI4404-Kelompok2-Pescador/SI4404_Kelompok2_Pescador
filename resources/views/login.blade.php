@@ -30,6 +30,11 @@
                                     onclick="setAdminRoute()">
                                 <label for="admin">Admin</label>
                             </div>
+							<div>
+                                <input type="radio" id="admin" name="login-type" value="admin"
+                                    onclick="setStoreRoute()">
+                                <label for="admin">Store</label>
+                            </div>
                         </div>
                         <button class="submit" type="submit" name="submit">LOGIN</button>
                     </form>
@@ -42,6 +47,10 @@
                         function setAdminRoute() {
                             document.getElementById('login-form').action = "{{ route('login.admin') }}";
                         }
+
+						function setStoreRoute() {
+							document.getElementById('login-form').action = "{{ route('login.store') }}";
+						}
                     </script>
 
 
