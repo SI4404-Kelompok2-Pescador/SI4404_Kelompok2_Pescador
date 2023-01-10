@@ -110,4 +110,35 @@ class authController extends Controller
         // dd($user);
         return view('profileview', compact('user', 'user_balance'));
     }
+
+    public function updateProfile(Request $request)
+    {
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $image = $request->file('image');
+
+            $response = Http::withHeaders([
+                'Authorization' => $request->cookie('token'),
+            ])->attach('img', file_get_contents($image), $image->getClientOriginalName())
+                ->put(env('API') . '/user/profile', [
+                    'name' => $request->input('name'),
+                    'email' => $request->input('email'),
+                    'phone' => $request->input('phone'),
+                    'address' => $request->input('address'),
+                    'image' => $request->file('image')->store('public/images'),
+                ]);
+        } else {
+            $response = Http::withHeaders([
+                'Authorization' => $request->cookie('token'),
+            ])->put(env('API') . '/user/profile', $request->all());
+        }
+
+        $response = $response->json();
+        dd($response);
+
+        if ($response['status'] == 'success') {
+            return redirect('/login')->with('success', $response['message']);
+        }
+
+        return view('/profileview')->with('success', $response['message']);
+    }
 }

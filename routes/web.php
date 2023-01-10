@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\authController;
 use App\Http\Controllers\balanceController;
+use App\Http\Controllers\storeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -21,12 +22,16 @@ use Illuminate\Support\Facades\Route;
 Route::post('/login', [authController::class, 'login'])->name('login.post');
 Route::post('/register', [authController::class, 'register'])->name('register.post');
 Route::post('/logout', [authController::class, 'logout'])->name('logout.post');
+Route::put('/profileupdate', [authController::class, 'updateProfile'])->name('profile.update');
 // ========================== AUTH ==========================
 
 // ========================== USER ==========================
 Route::get('/profileview', [authController::class, 'profile'])->name('profileview');
 Route::post('/balance', [balanceController::class, 'topup'])->name('topup.post');
 Route::get('/historytr', [balanceController::class, 'getbalance'])->name('historytr');
+
+// ========================== Store ==========================
+Route::post('/store', [storeController::class, 'registerStore'])->name('store.post');
 
 Route::get('/', function () {
     return view('home');
