@@ -44,23 +44,29 @@
 
 
         <!--Card content-->
-        <div class="card-body">
+        <div class="card-body text-center">
 
             <!--Title-->
             <h4 class="card-title">ORDER 1</h4>
+
             <!--Text-->
-            <p class="card-text">IKAN KAKAP MERAH</p>
-            <p class="card-text">Rp.100.000</p> 
+
+            <p class="card-text"><b>ID </b> <br> 34b48090-648d-45d8-abaf-9fa98ce1ab1c</p>
+            <p class="card-text"><b>SHIPPING PRICE </b> <br>  Rp.80.000</p>
+            <p class="card-text"><b>PRODUCT </b><br> Rp.80.000</p>
+            <p class="card-text"><b>TOTAL </b> <br> Rp.160.000</p> 
+            <p class="card-text"><b>DATE </b> <br> 10-01-2022 09:30</p> 
+            <p class="card-text"><b>STATUS </b></p> 
+            <p class="card-text"><i class="fas fa-check text-success"></i></p> 
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
             <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
-
-
         </div>
 
         </div>
         <!-- Card -->
     </div>
+
     <div class="col mb-4">
         <!-- Card -->
         <div class="card">
@@ -69,13 +75,54 @@
 
 
         <!--Card content-->
-        <div class="card-body">
+        <div class="card-body text-center">
 
             <!--Title-->
             <h4 class="card-title">ORDER 2</h4>
             <!--Text-->
-            <p class="card-text">CUMI-CUMI</p>
-            <p class="card-text">Rp.100.000</p>
+
+            <p class="card-text"><b>ID </b> <br> a51fa46c-4538-4ab1-a527-de3c84e4ccfe</p>
+            <p class="card-text"><b>SHIPPING PRICE </b> <br>  Rp.80.000</p>
+            <p class="card-text"><b>PRODUCT </b><br> Rp.10.000</p>
+            <p class="card-text"><b>TOTAL </b> <br> Rp.90.000</p> 
+            <p class="card-text"><b>DATE </b> <br> 10-01-2022 12:59</p>
+            <p class="card-text"><b>STATUS </b></p> 
+            <p class="card-text"><i class="fas fa-times text-danger"></i></p> 
+
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
+            <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
+
+        </div>
+
+        </div>
+        <!-- Card -->
+    </div>
+
+
+    <div class="col mb-4">
+        <!-- Card -->
+        <div class="card">
+
+        <!--Card image-->
+
+
+        <!--Card content-->
+        <div class="card-body text-center">
+
+            <!--Title-->
+            <h4 class="card-title">ORDER 3</h4>
+            <!--Text-->
+
+            <p class="card-text"><b>ID </b> <br> 1f8b4b08-4229-465b-a46a-55573a924d06</p>
+            <p class="card-text"><b>SHIPPING PRICE </b> <br>  Rp.80.000</p>
+            <p class="card-text"><b>PRODUCT </b><br> Rp.150.000</p>
+            <p class="card-text"><b>TOTAL </b> <br> Rp.230.000</p> 
+            <p class="card-text"><b>DATE </b> <br> 10-01-2022 11:30</p> 
+            <p class="card-text"><b>STATUS </b></p> 
+            <p class="card-text"><i class="fas fa-check text-success"></i></p> 
+            
+
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
             <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
@@ -93,18 +140,21 @@
 
 
         <!--Card content-->
-        <div class="card-body">
+        <div class="card-body text-center">
 
             <!--Title-->
-            <h4 class="card-title">ORDER 3</h4>
+            <h4 class="card-title">ORDER 4</h4>
             <!--Text-->
-            <p class="card-text">UDANG</p>
-            <p class="card-text">Rp.100.000</p>
-
+            <p class="card-text"><b>ID </b> <br> a51fa46c-4538-4ab1-a527-de3c84e4ccfe</p>
+            <p class="card-text"><b>SHIPPING PRICE </b> <br>  Rp.80.000</p>
+            <p class="card-text"><b>PRODUCT </b><br> Rp.100.000</p>
+            <p class="card-text"><b>TOTAL </b> <br> Rp.180.000</p> 
+            <p class="card-text"><b>DATE </b> <br> 10-01-2022 12:59</p>
+            <p class="card-text"><b>STATUS </b></p> 
+            <p class="card-text"><i class="fas fa-spinner text-primary"></i></p> 
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
             <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
-
 
         </div>
 

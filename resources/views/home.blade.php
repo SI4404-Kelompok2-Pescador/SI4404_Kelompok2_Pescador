@@ -102,8 +102,6 @@
                         <img src="https://www.pixelstalk.net/wp-content/uploads/2016/04/Creative-Wallpaper-Fishing-Rod-New-York-fisherman.jpg"
                             class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Hello World</h5>
-                            <p>Hallooooooooo</p>
                         </div>
                     </div>
                     <div class="carousel-item">
