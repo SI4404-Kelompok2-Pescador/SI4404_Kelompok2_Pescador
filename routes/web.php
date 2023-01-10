@@ -1,7 +1,9 @@
 <?php
 
+use App\Http\Controllers\adminController;
 use App\Http\Controllers\authController;
 use App\Http\Controllers\balanceController;
+use App\Http\Controllers\storeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -19,14 +21,28 @@ use Illuminate\Support\Facades\Route;
 
 // ========================== AUTH ==========================
 Route::post('/login', [authController::class, 'login'])->name('login.post');
+Route::post('/loginadmin', [authController::class, 'loginAdmin'])->name('login.admin');
 Route::post('/register', [authController::class, 'register'])->name('register.post');
 Route::post('/logout', [authController::class, 'logout'])->name('logout.post');
+Route::put('/profileupdate', [authController::class, 'updateProfile'])->name('profile.update');
 // ========================== AUTH ==========================
 
 // ========================== USER ==========================
 Route::get('/profileview', [authController::class, 'profile'])->name('profileview');
 Route::post('/balance', [balanceController::class, 'topup'])->name('topup.post');
 Route::get('/historytr', [balanceController::class, 'getbalance'])->name('historytr');
+
+// ========================== Store ==========================
+Route::post('/store', [storeController::class, 'registerStore'])->name('store.post');
+Route::post('/login-store', [storeController::class, 'loginStore'])->name('login.store');
+
+
+// ========================== ADMIN ==========================
+Route::get('/admindash', [adminController::class, 'dashboard'])->name('admindash');
+Route::post('/category', [adminController::class, 'createCategory'])->name('category.post');
+Route::delete('/category/{id}', [adminController::class, 'deleteCategory'])->name('category.delete');
+Route::get('/category', [adminController::class, 'showAllCategories'])->name('category');
+Route::get('/storeview', [adminController::class, 'showAllStores'])->name('storeview');
 
 Route::get('/', function () {
     return view('home');
@@ -107,19 +123,18 @@ Route::get('/orderuser', function () {
 
 // admin
 
-Route::get('/admindash', function () {
-    return view('admindash');
-});
+// Route::get('/admindash', function () {
+//     return view('admindash');
+// });
 
-Route::get('/storeview', function () {
-    return view('storeview');
-});
+// Route::get('/storeview', function () {
+//     return view('storeview');
+// });
 
-Route::get('/category', function () {
-    return view('category');
-});
+// Route::get('/category', function () {
+//     return view('category');
+// });
 
 Route::get('/settings', function () {
     return view('settings');
 });
-
