@@ -49,11 +49,10 @@
             <!--Title-->
             <h4 class="card-title">JAYA ABADI</h4>
             <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
+            <p class="card-text">IKAN KAKAP MERAH</p>
             <p class="card-text">Rp.100.000</p> 
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
+            <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">EDIT</button></a>
             <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
 
 
@@ -75,11 +74,10 @@
             <!--Title-->
             <h4 class="card-title">PESISIR RAYA</h4>
             <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
+            <p class="card-text">IKAN KAKAP MERAH</p>
             <p class="card-text">Rp.100.000</p>
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
+            <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">EDIT</button></a>
             <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
 
         </div>
@@ -100,12 +98,11 @@
             <!--Title-->
             <h4 class="card-title">SAMUDERA</h4>
             <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
+            <p class="card-text">IKAN KAKAP MERAH</p>
             <p class="card-text">Rp.100.000</p>
 
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
+            <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">EDIT</button></a>
             <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
 
 

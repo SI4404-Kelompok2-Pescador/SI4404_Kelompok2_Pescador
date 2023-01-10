@@ -49,8 +49,7 @@
             <!--Title-->
             <h4 class="card-title">ORDER 1</h4>
             <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
+            <p class="card-text">IKAN KAKAP MERAH</p>
             <p class="card-text">Rp.100.000</p> 
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
@@ -75,8 +74,7 @@
             <!--Title-->
             <h4 class="card-title">ORDER 2</h4>
             <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
+            <p class="card-text">CUMI-CUMI</p>
             <p class="card-text">Rp.100.000</p>
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">DONE</button></a>
@@ -100,8 +98,7 @@
             <!--Title-->
             <h4 class="card-title">ORDER 3</h4>
             <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
+            <p class="card-text">UDANG</p>
             <p class="card-text">Rp.100.000</p>
 
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
