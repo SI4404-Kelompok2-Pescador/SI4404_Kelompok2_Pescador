@@ -30,6 +30,14 @@ class balanceController extends Controller
         ])->get(env('API') . '/user/balance');
         $response = $response->object();
         $balance = $response->data;
-        return view('/historytr', compact('balance'));
+        // get user name
+        $response = Http::withHeaders([
+            'Authorization' => $request->cookie('token'),
+        ])->get(env('API') . '/user/profile');
+        $response = $response->object();
+        $name = $response->data;
+        // dd($name);
+
+        return view('/historytr', compact('balance', 'name'));
     }
 }

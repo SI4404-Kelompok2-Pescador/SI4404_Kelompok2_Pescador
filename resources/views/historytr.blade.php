@@ -51,7 +51,7 @@
             <div class="wrapper rounded">
                 <nav class="navbar navbar-expand-lg navbar-dark dark d-lg-flex align-items-lg-start">
                     <a class="navbar-brand" href="#">Transactions
-                        <p class="text-muted pl-1">Welcome to your transactions Joni Setiawan</p>
+                        <p class="text-muted pl-1">Welcome to your transactions {{$name->name}}</p>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
