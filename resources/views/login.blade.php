@@ -36,6 +36,10 @@
                                 <label for="admin">Store</label>
                             </div>
                         </div>
+						{{-- Register --}}
+						<div class="register">
+							<p>Don't have an account? <a href="{{'register'}}">Register</a></p>
+						</div>
                         <button class="submit" type="submit" name="submit">LOGIN</button>
                     </form>
 
