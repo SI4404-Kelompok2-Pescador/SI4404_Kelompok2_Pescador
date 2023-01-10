@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\adminController;
 use App\Http\Controllers\authController;
 use App\Http\Controllers\balanceController;
 use App\Http\Controllers\storeController;
@@ -20,6 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 // ========================== AUTH ==========================
 Route::post('/login', [authController::class, 'login'])->name('login.post');
+Route::post('/loginadmin', [authController::class, 'loginAdmin'])->name('login.admin');
 Route::post('/register', [authController::class, 'register'])->name('register.post');
 Route::post('/logout', [authController::class, 'logout'])->name('logout.post');
 Route::put('/profileupdate', [authController::class, 'updateProfile'])->name('profile.update');
@@ -32,6 +34,11 @@ Route::get('/historytr', [balanceController::class, 'getbalance'])->name('histor
 
 // ========================== Store ==========================
 Route::post('/store', [storeController::class, 'registerStore'])->name('store.post');
+
+
+// ========================== ADMIN ==========================
+Route::get('/admindash', [adminController::class, 'dashboard'])->name('admindash');
+Route::post('/category', [adminController::class, 'createCategory'])->name('category.post');
 
 Route::get('/', function () {
     return view('home');
@@ -112,9 +119,9 @@ Route::get('/orderuser', function () {
 
 // admin
 
-Route::get('/admindash', function () {
-    return view('admindash');
-});
+// Route::get('/admindash', function () {
+//     return view('admindash');
+// });
 
 Route::get('/storeview', function () {
     return view('storeview');

@@ -71,6 +71,37 @@ class authController extends Controller
         return redirect('/login')->with('error', 'Invalid credentials');
     }
 
+    public function loginAdmin(Request $request)
+    {
+        // Make request to external API
+        $response = Http::post(env('API') . '/login', [
+            'email' => $request->input('email'),
+            'password' => $request->input('password'),
+        ]);
+        $response = $response->json();
+        // dd($response);
+
+        if ($response['status'] == 'success') {
+            // Get user credentials from API response
+            $credentials = [
+                'email' => $response['user']['email'],
+                'password' => $request->input('password')
+            ];
+
+            // Attempt to login the user
+            if (auth()->attempt($credentials)) {
+                $request->session()->put('user', $response['user']);
+                // set cookie
+                // Get token from db
+                $token = DB::table('user_tokens')->where('user_id', $response['user']['id'])->first();
+                // dd($token);
+                return redirect('/admindash')->with('success', $response['message'])->cookie('token', $token->token, time() + (86400 * 30), "/");
+            }
+        }
+
+        return redirect('/login')->with('error', 'Invalid credentials');
+    }
+
     public function logout(Request $request)
     {
         Session::flush();
