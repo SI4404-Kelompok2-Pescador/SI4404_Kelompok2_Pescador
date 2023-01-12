@@ -47,7 +47,7 @@
         <div class="card-body">
 
             <!--Title-->
-            <h4 class="card-title">JAYA ABADI</h4>
+            <img class="img-fluid w-100" src="https://doktersehat.com/wp-content/uploads/2020/03/manfaat-ikan-kakap-doktersehat.jpg" alt="">
             <!--Text-->
             <p class="card-text">IKAN KAKAP MERAH</p>
             <p class="card-text">Rp.100.000</p> 
@@ -72,10 +72,10 @@
         <div class="card-body">
 
             <!--Title-->
-            <h4 class="card-title">PESISIR RAYA</h4>
+            <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKB0h8hwOzcnOUrBbYb9T31ZrPtc040wm-A&usqp=CAU" alt="">
             <!--Text-->
-            <p class="card-text">IKAN KAKAP MERAH</p>
-            <p class="card-text">Rp.100.000</p>
+            <p class="card-text">CUMI-CUMI</p>
+            <p class="card-text">Rp.80.000</p>
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">EDIT</button></a>
             <a href="{{'toko'}}"><button type="button" class="btn btn-danger" type="submit" name="submit">DELETE</button></a>
@@ -96,10 +96,10 @@
         <div class="card-body">
 
             <!--Title-->
-            <h4 class="card-title">SAMUDERA</h4>
+            <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbKB0h8hwOzcnOUrBbYb9T31ZrPtc040wm-A&usqp=CAU" alt="">
             <!--Text-->
-            <p class="card-text">IKAN KAKAP MERAH</p>
-            <p class="card-text">Rp.100.000</p>
+            <p class="card-text">CUMI-CUMI</p>
+            <p class="card-text">Rp.95.000</p>
 
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <a href="{{'toko'}}"><button type="button" class="btn btn-primary" type="submit" name="submit">EDIT</button></a>
